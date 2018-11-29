@@ -4,4 +4,5 @@
 - right click on project, select PyDev - Set as PyDev Project
 - create source-folder oli
 - copy package config from oli3.1
-- put oli.config in .gitignore by right-clicking on it and choosing Team - Ignore
+- put oli.config in .gitignore by right-clicking on it and choosing Team - Ignore; commit and push and it works (!)
+- put an example oli_example.config next to it, so others understand how it works
