@@ -1,0 +1,3 @@
+- created empty respoitory on github with only readme.md
+- in eclipse: file - import - Project from Git (with smart import) - clone URI
+- mind that the correct folder is selected: C:\Users\Gerben Rienk\Documents\GitHub
