@@ -1,3 +1,7 @@
-- created empty respoitory on github with only readme.md
+- created empty repository on github with only readme.md
 - in eclipse: file - import - Project from Git (with smart import) - clone URI
 - mind that the correct folder is selected: C:\Users\Gerben Rienk\Documents\GitHub
+- right click on project, select PyDev - Set as PyDev Project
+- create source-folder oli
+- copy package config from oli3.1
+- put oli.config in .gitignore by right-clicking on it and choosing Team - Ignore
