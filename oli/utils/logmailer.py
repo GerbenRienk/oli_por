@@ -31,9 +31,9 @@ def MailThisLogFile(LogFileName):
         mail_server = smtplib.SMTP(config['mail_server'])
         mail_server.send_message(msg)
         mail_server.quit()
-    else:
-        print("mail not enabled")
-        print(msg)
+    #else:
+        #print("mail not enabled")
+        #print(msg)
         
 if __name__ == '__main__':
     MailThisLogFile('logs/report.txt')

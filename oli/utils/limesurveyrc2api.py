@@ -13,6 +13,7 @@ class LimeSurveyRemoteControl2API(object):
         self.surveys = _Surveys(self)
         self.tokens = _Tokens(self)
         self.questions = _Questions(self)
+        self.responses = _Responses(self)
 
 
 class _Utils(object):
@@ -251,3 +252,55 @@ class _Questions(object):
         data = self.api.utils.prepare_params('list_questions', params)
         response = self.api.utils.request(data)
         return response
+ 
+class _Responses(object):
+
+    def __init__(self, lime_survey_api):
+        self.api = lime_survey_api
+
+    def export_responses(self, session_key, survey_id,
+                       document_type='json', language='en'):
+        """
+        Return a list of questions from the specified survey.
+
+        Parameters
+        :param session_key: Active LSRC2 session key
+        :type session_key: String
+        :param survey_id: ID of survey to list questions from.
+        :type survey_id: Integer
+        :param document_type: pdf,csv,xls,doc,json.
+        :type document_type: String
+        :param language: Language of survey to return for.
+        :type language: String
+        """
+
+        params = OrderedDict([
+            ('sSessionKey', session_key),
+            ('iSurveyID', survey_id),
+            ('sDocumentType', document_type),
+            ('sLanguage', language)
+        ])
+        data = self.api.utils.prepare_params('export_responses', params)
+        response = self.api.utils.request(data)
+        return response   
+"""
+from the online documentation:
+export_responses
+/**
+* RPC Routine to export responses.
+* Returns the requested file as base64 encoded string
+*
+* @access public
+* @param string $sSessionKey Auth credentials
+* @param int $iSurveyID Id of the Survey
+* @param string $sDocumentType pdf,csv,xls,doc,json
+* @param string $sLanguageCode The language to be used
+* @param string $sCompletionStatus Optional 'complete','incomplete' or 'all' - defaults to 'all'
+* @param string $sHeadingType 'code','full' or 'abbreviated' Optional defaults to 'code'
+* @param string $sResponseType 'short' or 'long' Optional defaults to 'short'
+* @param integer $iFromResponseID Optional
+* @param integer $iToResponseID Optional
+* @param array $aFields Optional Selected fields
+* @return array|string On success: Requested file as base 64-encoded string. On failure array with error information
+* */
+"""
