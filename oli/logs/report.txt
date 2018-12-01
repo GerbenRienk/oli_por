@@ -1,3 +1,4 @@
 start of report
-cycle started at 2018-11-29 20:47:09.165154
-finished looping from 2018-11-29 20:47:09.165154 till 2018-11-29 20:47:11.248320.
+cycle started at 2018-12-01 09:17:39.732803
+class connected 
+finished looping from 2018-12-01 09:17:39.732803 till 2018-12-01 09:17:43.682706.
