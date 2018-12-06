@@ -1,4 +1,33 @@
 start of report
-cycle started at 2018-12-01 09:17:39.732803
-class connected 
-finished looping from 2018-12-01 09:17:39.732803 till 2018-12-01 09:17:43.682706.
+INFO: cycle started at 2018-12-04 15:14:32.510188
+INFO: class connected to localhost, oli_por as oli
+ERROR: Missing ChildCode for response id 1
+INFO: Successfully imported data for POR1927532107 (SS_POR19275_9090)
+ERROR: Missing OID for ChildCode POR1900170001
+INFO: Successfully imported data for POR1905722102 (SS_POR19057_8197)
+INFO: Successfully imported data for POR1916601110 (SS_POR19166_898)
+ERROR: Missing OID for ChildCode POR1900170001
+ERROR: Missing ChildCode for response id 28
+ERROR: Missing OID for ChildCode POR1900170000
+INFO: Successfully imported data for POR1927762107 (SS_POR19277_8105)
+ERROR: Missing OID for ChildCode POR1900170001
+ERROR: Missing ChildCode for response id 6
+ERROR: Missing ChildCode for response id 7
+INFO: Successfully imported data for POR1931432122 (SS_POR19314_7119)
+ERROR: Missing ChildCode for response id 9
+INFO: Successfully imported data for POR1931361120 (SS_POR19313_1744)
+ERROR: Missing OID for ChildCode POR1900170001
+ERROR: Missing ChildCode for response id 26
+INFO: Successfully imported data for POR1916601110 (SS_POR19166_898)
+INFO: Successfully imported data for POR1931772120 (SS_POR19317_9577)
+INFO: Successfully imported data for POR1927531116 (SS_POR19275_7886)
+INFO: Successfully imported data for POR1936822112 (SS_POR19368_6705)
+INFO: Successfully imported data for POR1911261117 (SS_POR19112_7388)
+ERROR: Incorrect ChildCode for response id 12: 82
+ERROR: Missing OID for ChildCode POR1914651905
+ERROR: Missing ChildCode for response id 30
+ERROR: Missing ChildCode for response id 31
+INFO: Successfully imported data for POR1933811121 (SS_POR19338_7892)
+INFO: Successfully imported data for POR1931772109 (SS_POR19317_4009)
+ERROR: Missing ChildCode for response id 14
+INFO: finished looping from 2018-12-04 15:14:32.510188 till 2018-12-04 15:14:46.090659.

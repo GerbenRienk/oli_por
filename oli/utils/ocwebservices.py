@@ -8,6 +8,7 @@ import hashlib
 import zeep 
 from lxml import etree
 from zeep.wsse import UsernameToken
+import requests
 
 class studySubjectWS(object):
     '''
@@ -66,6 +67,7 @@ class studySubjectWS(object):
                             all_studysubject_events.append(one_studysubject_event)
         return all_studysubject_events
 
+
 class dataWS(object):
     '''
     class for the study subject webservice:
@@ -76,45 +78,41 @@ class dataWS(object):
         self._wsUrl = baseUrl + '/ws/data/v1/dataWsdl.wsdl'
         self._username = username
         
-    def importLSData(self,studysubjectoid,lsinfo):
-        import requests
-        _dataWsUrl = self._wsUrl + '/ws/data/v1/dataWsdl.wsdl'
+    def importData(self,odm_data):
+        
+        _dataWsUrl = self._wsUrl
         
         headers = {'content-type': 'text/xml'}
-        body = """<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:v1="http://openclinica.org/ws/data/v1" xmlns:bean="http://openclinica.org/ws/beans"><soapenv:Header>
-         <wsse:Security soapenv:mustUnderstand="1" xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">
-         <wsse:UsernameToken wsu:Id="UsernameToken-27777511" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">"""
-        body = body + "<wsse:Username>" + self._username + "</wsse:Username>"
-        body = body + ' <wsse:Password Type="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-username-token-profile-1.0#PasswordText">'
-        body = body +  self._passwordHash + '</wsse:Password>'
-        body = body + '</wsse:UsernameToken></wsse:Security></soapenv:Header><soapenv:Body><v1:importRequest>'
-        body = body + '<ODM><ClinicalData StudyOID="S_CL010" MetaDataVersionOID="v1.0.0">'
-        body = body + '<SubjectData SubjectKey="' + studysubjectoid + '">'
-        body = body + """        
-        <StudyEventData StudyEventOID="SE_SCREENING" >
-        <FormData FormOID="F_PMLIMESURVEY_V1" >
-        <ItemGroupData ItemGroupOID="IG_PMLIM_UNGROUPED" TransactionType="Insert">"""
-        body = body + '<ItemData ItemOID="I_PMLIM_LSDATA" Value="' + lsinfo + '"/>'
-        body = body + '</ItemGroupData></FormData></StudyEventData></SubjectData></ClinicalData></ODM>'
-        body = body + '</v1:importRequest></soapenv:Body></soapenv:Envelope>'
+        body = ''
+        body = body + '<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:v1="http://openclinica.org/ws/data/v1" xmlns:bean="http://openclinica.org/ws/beans">'
+        body = body + '  <soapenv:Header>'
+        body = body + '    <wsse:Security soapenv:mustUnderstand="1" xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">'
+        body = body + '      <wsse:UsernameToken wsu:Id="UsernameToken-27777511" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">'
+        body = body + '        <wsse:Username>' + self._username + '</wsse:Username>'
+        body = body + '        <wsse:Password Type="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-username-token-profile-1.0#PasswordText">' + self._passwordHash + '</wsse:Password>'
+        body = body + '      </wsse:UsernameToken>'
+        body = body + '    </wsse:Security>'
+        body = body + '  </soapenv:Header>'
+        body = body + '  <soapenv:Body>'
+        body = body + '    <v1:importRequest>'
+        body = body + odm_data
+        body = body + '    </v1:importRequest>'
+        body = body + '  </soapenv:Body>'
+        body = body + '</soapenv:Envelope>'
         
         xml_as_string = requests.post(_dataWsUrl,data=body,headers=headers).content.decode('utf-8')
+        #print('what we got from the web service')
+        #print(xml_as_string)
         tree = etree.fromstring(xml_as_string)
         results = ''
         for result_tag in tree.findall('.//{http://openclinica.org/ws/data/v1}result'):
             results = results + result_tag.text
-        
+            if (result_tag.text == 'Fail'):
+                for result_tag in tree.findall('.//{http://openclinica.org/ws/data/v1}error'):
+                    results = results + ': ' + result_tag.text
+                
+        #print(results)
         return results
-
-
-def main():
-    """
-    This is just for testing if the webservice for DataImport is working!
-    """
-    print("start")
-    all_tokens = 'SC fsredt 20170401&#10;v1 sfdret 20170501&#10;v2 hkdhdt N'
-    myImport = dataWS('oli_oc', 'Ged12gra', 'https://crfblite.com/oc_test_ws').importLSData('SS_GER004', all_tokens)
-    print(myImport)
     
 if __name__ == "__main__":
-    main() 
+    pass 

@@ -16,7 +16,7 @@ class Reporter(object):
         Constructor
         '''
         self._file = open('logs/report.txt','w') 
-        self._file.write('start of report\n')
+        self._file.write('\n')
         
     def append_to_report(self, report_line):
         self._file.write(report_line + '\n')
