@@ -14,15 +14,15 @@ class ConnToOliDB(object):
     def __init__(self):
         'let us create the connection to use multiple times'
         config=readDictFile('oli.config')
-        conn_string = "host='" + config['dbHost'] + "' dbname='" + config['dbName'] + "' user='" + config['dbUser'] + "' password='" + config['dbPass'] + "'"
+        conn_string = "host='%s' dbname='%s' user='%s' password='%s' port=%s" % (config['dbHost'], config['dbName'], config['dbUser'], config['dbPass'], config['dbPort'])
         self.init_result = ''
         
         # get a connection, if a connect cannot be made an exception will be raised here
         try:
             self._conn = psycopg2.connect(conn_string)
-            connect_result = 'INFO: class connected to %s, %s as %s' % (config['dbHost'], config['dbName'], config['dbUser'])
+            connect_result = 'INFO: class connected to %s, %s as %s on port %s' % (config['dbHost'], config['dbName'], config['dbUser'], config['dbPort'])
         except:
-            connect_result ='ERROR: unable to class connect to %s, %s as %s' % (config['dbHost'], config['dbName'], config['dbUser'])
+            connect_result ='ERROR: unable to class connect to %s, %s as %s on port %s' % (config['dbHost'], config['dbName'], config['dbUser'], config['dbPort'])
         
         self.init_result = connect_result
 
