@@ -48,10 +48,10 @@ def compose_odm(study_subject_oid, data_odk):
     # opening tags
     _odm_data = ''
     _odm_data = _odm_data + '<ODM>'
-    _odm_data = _odm_data + '  <ClinicalData StudyOID="S_CPPOR">'
+    _odm_data = _odm_data + '  <ClinicalData StudyOID="S_CDPOR">'
     _odm_data = _odm_data + '    <SubjectData SubjectKey="' + study_subject_oid + '">'
-    _odm_data = _odm_data + '      <StudyEventData StudyEventOID="SE_POR_CP">'
-    _odm_data = _odm_data + '        <FormData FormOID="F_PTFAMILYFORM_V1">'
+    _odm_data = _odm_data + '      <StudyEventData StudyEventOID="SE_POR_CD">'
+    _odm_data = _odm_data + '        <FormData FormOID="F_PTFAMILYFORM_V13">'
     _odm_data = _odm_data + '          <ItemGroupData ItemGroupOID="IG_PTFAM_UNGROUPED" ItemGroupRepeatKey="1" TransactionType="Insert">'
     # data
     _odm_data = _odm_data + write_odm_line('I_PTFAM_RELATIONSHIP', data_odk['q1relationship'])
@@ -65,7 +65,7 @@ def compose_odm(study_subject_oid, data_odk):
     
     # generated from testcosi5
     _odm_data = _odm_data + write_odm_line('I_PTFAM_LATEEARLYBIRTH', data_odk['q6fullterm'])
-    _odm_data = _odm_data + write_odm_line('I_PTFAM_BREASTFEDEVER', data_odk['q7breastfed'])
+    _odm_data = _odm_data + write_odm_line('I_PTFAM_BREASTFEDEVER_2', data_odk['q7breastfed'])
     _odm_data = _odm_data + write_odm_line('I_PTFAM_BREASTFEDHOWLONG', data_odk['q7breastfedmonths'], is_integer = True)
     _odm_data = _odm_data + write_odm_line('I_PTFAM_BREASTEXCLEVER', data_odk['q8breastfedexclusive'])
     _odm_data = _odm_data + write_odm_line('I_PTFAM_BREASTEXCLUSIVE', data_odk['q8breastexclusive'], is_integer = True)   
@@ -75,7 +75,7 @@ def compose_odm(study_subject_oid, data_odk):
     _odm_data = _odm_data + write_odm_line('I_PTFAM_REASONMOTORIZED', data_odk['q10areasonmotorized']) 
     _odm_data = _odm_data + write_odm_line('I_PTFAM_REASONMOTORIZEDOTH', data_odk['q10areasonmotorizedo'], is_utf8 = True)
     _odm_data = _odm_data + write_odm_line('I_PTFAM_SAFEROUTESCHOOL', data_odk['q11routesafe']) 
-    _odm_data = _odm_data + write_odm_line('I_PTFAM_SPORTCLUB', data_odk['q12sportclubs'])
+    _odm_data = _odm_data + write_odm_line('I_PTFAM_SPORTCLUB_2', data_odk['q12sportclubs'])
     _odm_data = _odm_data + write_odm_line('I_PTFAM_SPORTCLUBFREQ', data_odk['q13sportclubsfrequen'])
     
     _odm_data = _odm_data + write_odm_line('I_PTFAM_BEDTIME', data_odk['q14bedtime'])
@@ -108,7 +108,7 @@ def compose_odm(study_subject_oid, data_odk):
     _odm_data = _odm_data + write_odm_line('I_PTFAM_BREAKFAST', data_odk['q19breakfast'])
     _odm_data = _odm_data + write_odm_line('I_PTFAM_FREQCANDY', data_odk['q20[Candy]'])
     _odm_data = _odm_data + write_odm_line('I_PTFAM_FREQCEREALS', data_odk['q20[Cereals]'])
-    _odm_data = _odm_data + write_odm_line('I_PTFAM_CEREALSSUGAR', data_odk['q20cerealssugar'])
+    _odm_data = _odm_data + write_odm_line('I_PTFAM_CEREALSSUGAR_2', data_odk['q20cerealssugar'])
     _odm_data = _odm_data + write_odm_line('I_PTFAM_FREQCHEESE', data_odk['q20[Cheese]'])
     _odm_data = _odm_data + write_odm_line('I_PTFAM_FREQCHIPS', data_odk['q20[Chips]'])
     _odm_data = _odm_data + write_odm_line('I_PTFAM_FREQDAIRY', data_odk['q20[Dairy]'])
@@ -147,19 +147,19 @@ def compose_odm(study_subject_oid, data_odk):
     _odm_data = _odm_data + write_odm_line('I_PTFAM_HMNRSTEPFATHER', data_odk['q26hmnr[Stepfather]'], is_integer = True)
     _odm_data = _odm_data + write_odm_line('I_PTFAM_HMNRSTEPMOTHER', data_odk['q26hmnr[Stepmother]'], is_integer = True)
     
-    _odm_data = _odm_data + write_odm_line('I_PTFAM_PT_CHILDBORNOTH', data_odk['q27childbornoth'], is_utf8 = True)
-    _odm_data = _odm_data + write_odm_line('I_PTFAM_PT_CHILDBORN', data_odk['q27childborn'])
-    _odm_data = _odm_data + write_odm_line('I_PTFAM_PT_MOTHERBORNOTH', data_odk['q28motherbornoth'], is_utf8 = True)
-    _odm_data = _odm_data + write_odm_line('I_PTFAM_PT_MOTHERBORN', data_odk['q28motherborn'])
-    _odm_data = _odm_data + write_odm_line('I_PTFAM_PT_FATHERBORNOTH', data_odk['q29fatherbornoth'], is_utf8 = True)
-    _odm_data = _odm_data + write_odm_line('I_PTFAM_PT_FATHERBORN', data_odk['q29fatherborn'])
+    _odm_data = _odm_data + write_odm_line('I_PTFAM_PT_CHILDBORNOTH_2', data_odk['q27childbornoth'], is_utf8 = True)
+    _odm_data = _odm_data + write_odm_line('I_PTFAM_PT_CHILDBORN_2', data_odk['q27childborn'])
+    _odm_data = _odm_data + write_odm_line('I_PTFAM_PT_MOTHERBORNOTH_2', data_odk['q28motherbornoth'], is_utf8 = True)
+    _odm_data = _odm_data + write_odm_line('I_PTFAM_PT_MOTHERBORN_2', data_odk['q28motherborn'])
+    _odm_data = _odm_data + write_odm_line('I_PTFAM_PT_FATHERBORNOTH_2', data_odk['q29fatherbornoth'], is_utf8 = True)
+    _odm_data = _odm_data + write_odm_line('I_PTFAM_PT_FATHERBORN_2', data_odk['q29fatherborn'])
     _odm_data = _odm_data + write_odm_line('I_PTFAM_PT_LANGUAGEOTH', data_odk['q30languageoth'], is_utf8 = True)
     _odm_data = _odm_data + write_odm_line('I_PTFAM_PT_LANGUAGE', data_odk['q30language'])
     
-    _odm_data = _odm_data + write_odm_line('I_PTFAM_EDUSPOUSE', data_odk['q31eduspouse'])
+    _odm_data = _odm_data + write_odm_line('I_PTFAM_EDUSPOUSE_2', data_odk['q31eduspouse'])
     _odm_data = _odm_data + write_odm_line('I_PTFAM_EDUYOU', data_odk['q31eduyou'])
     _odm_data = _odm_data + write_odm_line('I_PTFAM_EARNINGS', data_odk['q32earnings'])
-    _odm_data = _odm_data + write_odm_line('I_PTFAM_OCCUPSPOUSE', data_odk['q33occupspouse'])
+    _odm_data = _odm_data + write_odm_line('I_PTFAM_OCCUPSPOUSE_2', data_odk['q33occupspouse'])
     _odm_data = _odm_data + write_odm_line('I_PTFAM_OCCUPSPOUSEOTH', data_odk['q33occupspouseoth'], is_utf8 = True)
     _odm_data = _odm_data + write_odm_line('I_PTFAM_OCCUPYOU', data_odk['q33occupyou'])
     _odm_data = _odm_data + write_odm_line('I_PTFAM_OCCUPYOUOTH', data_odk['q33occupyouoth'], is_utf8 = True)
