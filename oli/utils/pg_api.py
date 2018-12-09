@@ -14,7 +14,7 @@ class ConnToOliDB(object):
     def __init__(self):
         'let us create the connection to use multiple times'
         config=readDictFile('oli.config')
-        conn_string = "host='%s' dbname='%s' user='%s' password='%s' port=%s" % (config['dbHost'], config['dbName'], config['dbUser'], config['dbPass'], config['dbPort'])
+        conn_string = "host='%s' dbname='%s' user='%s' password='%s' port='%s'" % (config['dbHost'], config['dbName'], config['dbUser'], config['dbPass'], config['dbPort'])
         self.init_result = ''
         
         # get a connection, if a connect cannot be made an exception will be raised here
