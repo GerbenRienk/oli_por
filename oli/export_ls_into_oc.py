@@ -89,7 +89,7 @@ def cycle_through_syncs():
                                 conn.WriteDataWSResponse(sid, response_id, import_result)
                                 if (import_result.find('Success') == 0):
                                     my_report.append_to_report('INFO: Successfully imported data for %s (%s)' % (study_subject_id, study_subject_oid))
-                                    #conn.SetResponseComplete(sid, response_id)
+                                    conn.SetResponseComplete(sid, response_id)
                                 else:
                                     item_starts_at = import_result.find('I_')
                                     my_report.append_to_report('ERROR: import for %s failed with message "%s" and more' % (study_subject_id, import_result[item_starts_at:]))
