@@ -1,33 +1,1779 @@
-start of report
-INFO: cycle started at 2018-12-04 15:14:32.510188
-INFO: class connected to localhost, oli_por as oli
-ERROR: Missing ChildCode for response id 1
-INFO: Successfully imported data for POR1927532107 (SS_POR19275_9090)
-ERROR: Missing OID for ChildCode POR1900170001
-INFO: Successfully imported data for POR1905722102 (SS_POR19057_8197)
-INFO: Successfully imported data for POR1916601110 (SS_POR19166_898)
-ERROR: Missing OID for ChildCode POR1900170001
-ERROR: Missing ChildCode for response id 28
-ERROR: Missing OID for ChildCode POR1900170000
-INFO: Successfully imported data for POR1927762107 (SS_POR19277_8105)
-ERROR: Missing OID for ChildCode POR1900170001
-ERROR: Missing ChildCode for response id 6
-ERROR: Missing ChildCode for response id 7
-INFO: Successfully imported data for POR1931432122 (SS_POR19314_7119)
-ERROR: Missing ChildCode for response id 9
-INFO: Successfully imported data for POR1931361120 (SS_POR19313_1744)
-ERROR: Missing OID for ChildCode POR1900170001
-ERROR: Missing ChildCode for response id 26
-INFO: Successfully imported data for POR1916601110 (SS_POR19166_898)
-INFO: Successfully imported data for POR1931772120 (SS_POR19317_9577)
-INFO: Successfully imported data for POR1927531116 (SS_POR19275_7886)
-INFO: Successfully imported data for POR1936822112 (SS_POR19368_6705)
-INFO: Successfully imported data for POR1911261117 (SS_POR19112_7388)
-ERROR: Incorrect ChildCode for response id 12: 82
-ERROR: Missing OID for ChildCode POR1914651905
-ERROR: Missing ChildCode for response id 30
-ERROR: Missing ChildCode for response id 31
-INFO: Successfully imported data for POR1933811121 (SS_POR19338_7892)
-INFO: Successfully imported data for POR1931772109 (SS_POR19317_4009)
-ERROR: Missing ChildCode for response id 14
-INFO: finished looping from 2018-12-04 15:14:32.510188 till 2018-12-04 15:14:46.090659.
+
+INFO: cycle started at 2022-05-09 09:49:44.845368
+INFO: class connected to localhost, oli_por as oli on port 5433
+ERROR: Missing ChildCode for resp.id. 1
+ERROR: Missing ChildCode for resp.id. 2
+ERROR: Missing ChildCode for resp.id. 3
+ERROR: Missing ChildCode for resp.id. 4
+ERROR: Missing ChildCode for resp.id. 5
+ERROR: Missing ChildCode for resp.id. 9
+ERROR: Missing ChildCode for resp.id. 10
+ERROR: Missing ChildCode for resp.id. 12
+ERROR: Missing ChildCode for resp.id. 14
+ERROR: Missing ChildCode for resp.id. 17
+ERROR: missing OID for resp.id. 18 : ChildCode POR2222161111
+ERROR: Missing ChildCode for resp.id. 19
+ERROR: Missing ChildCode for resp.id. 20
+ERROR: Missing ChildCode for resp.id. 21
+ERROR: missing OID for resp.id. 22 : ChildCode POR2216122161
+ERROR: import for resp.id 30 POR2213941106 failed with message "I_PTFAM_PT_MOTHERSINCE_2: 24 anos -- [Please use mm/yyyy]SS_POR22139_666.SE_POR_CP.F_PTFAMILYFORM_V12.IG_PTFAM_UNGROUPED(1).I_PTFAM_PT_FATHERSINCE_2: 28 -- [Please use mm/yyyy] 
+" and more
+ERROR: Missing ChildCode for resp.id. 32
+ERROR: missing OID for resp.id. 33 : ChildCode POR2222139421
+ERROR: Missing ChildCode for resp.id. 38
+ERROR: Missing ChildCode for resp.id. 43
+ERROR: Missing ChildCode for resp.id. 52
+ERROR: import for resp.id 55 POR2214651101 failed with message "I_PTFAM_PT_MOTHERSINCE_2: 37 -- [Please use mm/yyyy]SS_POR22146_2839.SE_POR_CP.F_PTFAMILYFORM_V12.IG_PTFAM_UNGROUPED(1).I_PTFAM_PT_FATHERSINCE_2: 28 -- [Please use mm/yyyy] 
+" and more
+ERROR: Missing ChildCode for resp.id. 56
+ERROR: import for resp.id 65 POR2213942116 failed with message "I_PTFAM_PT_FATHERSINCE_2: 15 anos -- [Please use mm/yyyy] 
+" and more
+ERROR: import for resp.id 68 POR2214532111 failed with message "I_PTFAM_PT_MOTHERSINCE_2: 16 anos -- [Please use mm/yyyy]SS_POR22145_6769.SE_POR_CP.F_PTFAMILYFORM_V12.IG_PTFAM_UNGROUPED(1).I_PTFAM_PT_FATHERSINCE_2: 20 anos -- [Please use mm/yyyy] 
+" and more
+ERROR: Missing ChildCode for resp.id. 72
+ERROR: Missing ChildCode for resp.id. 73
+ERROR: missing OID for resp.id. 74 : ChildCode POR2204651111
+ERROR: Missing ChildCode for resp.id. 76
+ERROR: Missing ChildCode for resp.id. 77
+ERROR: import for resp.id 81 POR2220601124 failed with message "I_PTFAM_PT_FATHERSINCE_2: 18 -- [Please use mm/yyyy] 
+" and more
+ERROR: missing OID for resp.id. 96 : ChildCode POR2211111111
+ERROR: Missing ChildCode for resp.id. 101
+ERROR: Missing ChildCode for resp.id. 118
+ERROR: Missing ChildCode for resp.id. 121
+ERROR: Missing ChildCode for resp.id. 122
+ERROR: missing OID for resp.id. 127 : ChildCode POR2202062117
+ERROR: Missing ChildCode for resp.id. 128
+ERROR: missing OID for resp.id. 129 : ChildCode POR2222222255
+ERROR: missing OID for resp.id. 135 : ChildCode POR2222206021
+ERROR: Missing ChildCode for resp.id. 138
+ERROR: Missing ChildCode for resp.id. 140
+ERROR: Missing ChildCode for resp.id. 162
+ERROR: missing OID for resp.id. 172 : ChildCode POR2222359511
+ERROR: missing OID for resp.id. 176 : ChildCode POR2222206011
+ERROR: missing OID for resp.id. 177 : ChildCode POR2222206011
+ERROR: import for resp.id 180 POR2233921110 failed with message "I_PTFAM_PT_MOTHERSINCE_2: 6 -- [Please use mm/yyyy] 
+" and more
+ERROR: Missing ChildCode for resp.id. 188
+ERROR: Missing ChildCode for resp.id. 190
+ERROR: Missing ChildCode for resp.id. 191
+ERROR: Missing ChildCode for resp.id. 193
+ERROR: Missing ChildCode for resp.id. 196
+ERROR: Missing ChildCode for resp.id. 198
+ERROR: Missing ChildCode for resp.id. 200
+ERROR: Missing ChildCode for resp.id. 203
+ERROR: Missing ChildCode for resp.id. 204
+ERROR: Missing ChildCode for resp.id. 208
+ERROR: Missing ChildCode for resp.id. 209
+ERROR: missing OID for resp.id. 213 : ChildCode POR2222168021
+ERROR: Missing ChildCode for resp.id. 215
+ERROR: Missing ChildCode for resp.id. 216
+ERROR: Missing ChildCode for resp.id. 227
+ERROR: import for resp.id 230 POR2216802104 failed with message "I_PTFAM_PT_FATHERSINCE_2: 10 -- [Please use mm/yyyy] 
+" and more
+ERROR: Missing ChildCode for resp.id. 236
+ERROR: Missing ChildCode for resp.id. 254
+ERROR: Missing ChildCode for resp.id. 265
+ERROR: import for resp.id 266 POR2234022116 failed with message "I_PTFAM_PT_MOTHERSINCE_2: 1a -- [Please use mm/yyyy] 
+" and more
+ERROR: missing OID for resp.id. 267 : ChildCode POR2216800000
+ERROR: Missing ChildCode for resp.id. 270
+ERROR: Missing ChildCode for resp.id. 271
+ERROR: Missing ChildCode for resp.id. 279
+ERROR: import for resp.id 281 POR2233922122 failed with message "I_PTFAM_PT_MOTHERSINCE_2: 9 meses -- [Please use mm/yyyy]SS_POR22339_1345.SE_POR_CP.F_PTFAMILYFORM_V12.IG_PTFAM_UNGROUPED(1).I_PTFAM_PT_FATHERSINCE_2: 6 anos -- [Please use mm/yyyy] 
+" and more
+ERROR: Missing ChildCode for resp.id. 285
+ERROR: Missing ChildCode for resp.id. 288
+ERROR: import for resp.id 296 POR2233422104 failed with message "I_PTFAM_PT_MOTHERSINCE_2: 4 anos -- [Please use mm/yyyy]SS_POR22334_813.SE_POR_CP.F_PTFAMILYFORM_V12.IG_PTFAM_UNGROUPED(1).I_PTFAM_PT_FATHERSINCE_2: 3 anos -- [Please use mm/yyyy] 
+" and more
+ERROR: missing OID for resp.id. 298 : ChildCode POR2227082014
+ERROR: Missing ChildCode for resp.id. 299
+ERROR: import for resp.id 300 POR2218021113 failed with message "I_PTFAM_PT_MOTHERSINCE_2: 10anos -- [Please use mm/yyyy] 
+" and more
+ERROR: Missing ChildCode for resp.id. 305
+ERROR: import for resp.id 308 POR2216801116 failed with message "I_PTFAM_PT_MOTHERSINCE_2: 14 anos -- [Please use mm/yyyy] 
+" and more
+ERROR: import for resp.id 312 POR2233922120 failed with message "I_PTFAM_PT_FATHERSINCE_2: 46 anos -- [Please use mm/yyyy] 
+" and more
+ERROR: Missing ChildCode for resp.id. 313
+ERROR: Missing ChildCode for resp.id. 318
+ERROR: Missing ChildCode for resp.id. 320
+ERROR: Missing ChildCode for resp.id. 321
+ERROR: Missing ChildCode for resp.id. 331
+ERROR: Missing ChildCode for resp.id. 336
+ERROR: Incorrect ChildCode for resp.id. 338: 22
+ERROR: Missing ChildCode for resp.id. 339
+ERROR: Missing ChildCode for resp.id. 341
+ERROR: Missing ChildCode for resp.id. 343
+ERROR: import for resp.id 349 POR2216601106 failed with message "I_PTFAM_PT_MOTHERSINCE_2: 14 anos -- [Please use mm/yyyy] 
+" and more
+ERROR: missing OID for resp.id. 353 : ChildCode POR2203449109
+ERROR: Missing ChildCode for resp.id. 365
+ERROR: Missing ChildCode for resp.id. 366
+ERROR: import for resp.id 375 POR2234491119 failed with message "I_PTFAM_PT_MOTHERSINCE_2: 20 -- [Please use mm/yyyy]SS_POR22344_9621.SE_POR_CP.F_PTFAMILYFORM_V12.IG_PTFAM_UNGROUPED(1).I_PTFAM_PT_FATHERSINCE_2: 20 -- [Please use mm/yyyy] 
+" and more
+ERROR: Missing ChildCode for resp.id. 378
+ERROR: Missing ChildCode for resp.id. 379
+ERROR: Missing ChildCode for resp.id. 381
+ERROR: import for resp.id 384 POR2220572119 failed with message "I_PTFAM_PT_FATHERSINCE_2: Desde os seus 4 anos -- [Please use mm/yyyy] 
+" and more
+ERROR: Missing ChildCode for resp.id. 396
+ERROR: Missing ChildCode for resp.id. 397
+ERROR: Missing ChildCode for resp.id. 398
+ERROR: import for resp.id 399 POR2234022108 failed with message "I_PTFAM_PT_FATHERSINCE_2: Desde os 12 anos -- [Please use mm/yyyy] 
+" and more
+ERROR: Missing ChildCode for resp.id. 403
+ERROR: Incorrect ChildCode for resp.id. 404: 7
+ERROR: import for resp.id 409 POR2234492114 failed with message "I_PTFAM_PT_MOTHERSINCE_2: 1 ano -- [Please use mm/yyyy] 
+" and more
+ERROR: import for resp.id 415 POR2233821105 failed with message "I_PTFAM_PT_MOTHERSINCE_2: 14 -- [Please use mm/yyyy] 
+" and more
+ERROR: Missing ChildCode for resp.id. 419
+ERROR: import for resp.id 421 POR2219002112 failed with message "I_PTFAM_PT_MOTHERSINCE_2: 1 ano de idade  -- [Please use mm/yyyy]SS_POR22190_7712.SE_POR_CP.F_PTFAMILYFORM_V12.IG_PTFAM_UNGROUPED(1).I_PTFAM_PT_FATHERSINCE_2: 1 ano de idade  -- [Please use mm/yyyy] 
+" and more
+ERROR: import for resp.id 422 POR2234731116 failed with message "I_PTFAM_PT_MOTHERSINCE_2: 13 -- [Please use mm/yyyy]SS_POR22347_3096.SE_POR_CP.F_PTFAMILYFORM_V12.IG_PTFAM_UNGROUPED(1).I_PTFAM_PT_FATHERSINCE_2: 15 -- [Please use mm/yyyy] 
+" and more
+ERROR: import for resp.id 423 POR2233821112 failed with message "I_PTFAM_PT_FATHERSINCE_2: Desde os 3 anos de idade -- [Please use mm/yyyy] 
+" and more
+ERROR: import for resp.id 426 POR2234492116 failed with message "I_PTFAM_PT_MOTHERSINCE_2: 16 -- [Please use mm/yyyy] 
+" and more
+ERROR: import for resp.id 439 POR2233692101 failed with message "I_PTFAM_PT_CHILDSINCE_2: brasil -- [Please use mm/yyyy]SS_POR22336_575.SE_POR_CP.F_PTFAMILYFORM_V12.IG_PTFAM_UNGROUPED(1).I_PTFAM_PT_MOTHERSINCE_2: 8 anos -- [Please use mm/yyyy]SS_POR22336_575.SE_POR_CP.F_PTFAMILYFORM_V12.IG_PTFAM_UNGROUPED(1).I_PTFAM_PT_FATHERSINCE_2: 10 anos -- [Please use mm/yyyy] 
+" and more
+ERROR: import for resp.id 445 POR2218021102 failed with message "I_PTFAM_PT_MOTHERSINCE_2: 12 anos -- [Please use mm/yyyy] 
+" and more
+ERROR: Missing ChildCode for resp.id. 447
+ERROR: missing OID for resp.id. 448 : ChildCode POR2234355210
+ERROR: Missing ChildCode for resp.id. 451
+ERROR: Missing ChildCode for resp.id. 454
+ERROR: import for resp.id 470 POR2233811109 failed with message "I_PTFAM_PT_CHILDSINCE_2: 6br -- [Please use mm/yyyy]SS_POR22338_3071.SE_POR_CP.F_PTFAMILYFORM_V12.IG_PTFAM_UNGROUPED(1).I_PTFAM_PT_MOTHERSINCE_2: 4 anos  -- [Please use mm/yyyy]SS_POR22338_3071.SE_POR_CP.F_PTFAMILYFORM_V12.IG_PTFAM_UNGROUPED(1).I_PTFAM_PT_FATHERSINCE_2: 00 -- [Please use mm/yyyy] 
+" and more
+ERROR: import for resp.id 474 POR2233821101 failed with message "I_PTFAM_PT_MOTHERSINCE_2: 13anos -- [Please use mm/yyyy] 
+" and more
+ERROR: Missing ChildCode for resp.id. 483
+ERROR: missing OID for resp.id. 486 : ChildCode POR2218021901
+ERROR: Missing ChildCode for resp.id. 504
+ERROR: Missing ChildCode for resp.id. 507
+ERROR: Missing ChildCode for resp.id. 509
+ERROR: Missing ChildCode for resp.id. 514
+ERROR: Missing ChildCode for resp.id. 515
+ERROR: missing OID for resp.id. 516 : ChildCode POR2201105157
+ERROR: import for resp.id 517 POR2234731104 failed with message "I_PTFAM_PT_MOTHERSINCE_2: 20 anos -- [Please use mm/yyyy] 
+" and more
+ERROR: Missing ChildCode for resp.id. 519
+ERROR: Missing ChildCode for resp.id. 520
+ERROR: Missing ChildCode for resp.id. 522
+ERROR: Missing ChildCode for resp.id. 527
+ERROR: missing OID for resp.id. 528 : ChildCode POR2200620620
+ERROR: Missing ChildCode for resp.id. 530
+ERROR: Missing ChildCode for resp.id. 533
+ERROR: import for resp.id 538 POR2233821114 failed with message "I_PTFAM_PT_FATHERSINCE_2: 10 anos -- [Please use mm/yyyy] 
+" and more
+ERROR: Missing ChildCode for resp.id. 540
+ERROR: Missing ChildCode for resp.id. 543
+ERROR: Missing ChildCode for resp.id. 547
+ERROR: import for resp.id 548 POR2219001113 failed with message "I_PTFAM_PT_MOTHERSINCE_2: 3 -- [Please use mm/yyyy]SS_POR22190_9711.SE_POR_CP.F_PTFAMILYFORM_V12.IG_PTFAM_UNGROUPED(1).I_PTFAM_PT_FATHERSINCE_2: Não vive cá  -- [Please use mm/yyyy] 
+" and more
+ERROR: Missing ChildCode for resp.id. 553
+ERROR: Incorrect ChildCode for resp.id. 557: 6
+ERROR: import for resp.id 559 POR2233821116 failed with message "I_PTFAM_PT_FATHERSINCE_2: 38 anos -- [Please use mm/yyyy] 
+" and more
+ERROR: Missing ChildCode for resp.id. 568
+ERROR: import for resp.id 573 POR2233821114 failed with message "I_PTFAM_PT_FATHERSINCE_2: 10 anos -- [Please use mm/yyyy] 
+" and more
+ERROR: Missing ChildCode for resp.id. 574
+ERROR: import for resp.id 588 POR2216781105 failed with message "I_PTFAM_PT_MOTHERSINCE_2: 44 -- [Please use mm/yyyy] 
+" and more
+ERROR: Missing ChildCode for resp.id. 589
+ERROR: import for resp.id 598 POR2234022114 failed with message "I_PTFAM_PT_FATHERSINCE_2: 2 -- [Please use mm/yyyy] 
+" and more
+ERROR: missing OID for resp.id. 602 : ChildCode POR2213822144
+ERROR: Missing ChildCode for resp.id. 603
+ERROR: import for resp.id 606 POR2234022117 failed with message "I_PTFAM_PT_MOTHERSINCE_2: 13 -- [Please use mm/yyyy] 
+" and more
+ERROR: missing OID for resp.id. 617 : ChildCode POR2222168021
+ERROR: Missing ChildCode for resp.id. 621
+ERROR: Missing ChildCode for resp.id. 627
+ERROR: Missing ChildCode for resp.id. 662
+ERROR: Missing ChildCode for resp.id. 672
+ERROR: import for resp.id 674 POR2219002103 failed with message "I_PTFAM_PT_MOTHERSINCE_2: 34 -- [Please use mm/yyyy] 
+" and more
+ERROR: missing OID for resp.id. 680 : ChildCode POR2229592105
+ERROR: Missing ChildCode for resp.id. 682
+ERROR: import for resp.id 686 POR2218561104 failed with message "I_PTFAM_PT_MOTHERSINCE_2: 3 meses -- [Please use mm/yyyy] 
+" and more
+ERROR: Missing ChildCode for resp.id. 689
+ERROR: Missing ChildCode for resp.id. 692
+ERROR: Missing ChildCode for resp.id. 699
+ERROR: import for resp.id 709 POR2235972105 failed with message "I_PTFAM_PT_MOTHERSINCE_2: desde os 4 anos -- [Please use mm/yyyy] 
+" and more
+ERROR: Missing ChildCode for resp.id. 714
+ERROR: Missing ChildCode for resp.id. 726
+ERROR: Missing ChildCode for resp.id. 729
+ERROR: Missing ChildCode for resp.id. 730
+ERROR: Missing ChildCode for resp.id. 733
+ERROR: Missing ChildCode for resp.id. 743
+ERROR: missing OID for resp.id. 770 : ChildCode POR2218995110
+ERROR: missing OID for resp.id. 775 : ChildCode POR2222185621
+ERROR: import for resp.id 779 POR2218562122 failed with message "I_PTFAM_PT_MOTHERSINCE_2: 5 -- [Please use mm/yyyy] 
+" and more
+ERROR: missing OID for resp.id. 780 : ChildCode POR2216122161
+ERROR: Missing ChildCode for resp.id. 784
+ERROR: import for resp.id 786 POR2233881102 failed with message "I_PTFAM_PT_MOTHERSINCE_2: 13 -- [Please use mm/yyyy] 
+" and more
+ERROR: Missing ChildCode for resp.id. 788
+ERROR: missing OID for resp.id. 797 : ChildCode POR2201821115
+ERROR: Missing ChildCode for resp.id. 799
+ERROR: Missing ChildCode for resp.id. 800
+ERROR: Missing ChildCode for resp.id. 808
+ERROR: Missing ChildCode for resp.id. 809
+ERROR: Missing ChildCode for resp.id. 810
+ERROR: Missing ChildCode for resp.id. 821
+ERROR: import for resp.id 824 POR2218952113 failed with message "I_PTFAM_PT_MOTHERSINCE_2: Desde os 3 anos de idade -- [Please use mm/yyyy] 
+" and more
+ERROR: Missing ChildCode for resp.id. 829
+ERROR: import for resp.id 835 POR2218562124 failed with message "I_PTFAM_PT_MOTHERSINCE_2: 6 meses -- [Please use mm/yyyy] 
+" and more
+ERROR: Missing ChildCode for resp.id. 838
+ERROR: Missing ChildCode for resp.id. 842
+ERROR: Missing ChildCode for resp.id. 850
+ERROR: Missing ChildCode for resp.id. 851
+ERROR: Missing ChildCode for resp.id. 863
+ERROR: Missing ChildCode for resp.id. 864
+ERROR: Missing ChildCode for resp.id. 884
+ERROR: import for resp.id 888 POR2209061120 failed with message "I_PTFAM_PT_MOTHERSINCE_2: 3 meses -- [Please use mm/yyyy] 
+" and more
+ERROR: Missing ChildCode for resp.id. 890
+ERROR: Missing ChildCode for resp.id. 892
+ERROR: missing OID for resp.id. 897 : ChildCode POR2200962103
+ERROR: Missing ChildCode for resp.id. 900
+ERROR: import for resp.id 904 POR2233822110 failed with message "I_PTFAM_PT_CHILDSINCE_2: 3 anos  -- [Please use mm/yyyy]SS_POR22338_3929.SE_POR_CP.F_PTFAMILYFORM_V12.IG_PTFAM_UNGROUPED(1).I_PTFAM_PT_MOTHERSINCE_2: 3 anos  -- [Please use mm/yyyy]SS_POR22338_3929.SE_POR_CP.F_PTFAMILYFORM_V12.IG_PTFAM_UNGROUPED(1).I_PTFAM_PT_FATHERSINCE_2: Brasil  -- [Please use mm/yyyy] 
+" and more
+ERROR: Missing ChildCode for resp.id. 906
+ERROR: Incorrect ChildCode for resp.id. 912: 555
+ERROR: Missing ChildCode for resp.id. 913
+ERROR: Missing ChildCode for resp.id. 918
+ERROR: missing OID for resp.id. 919 : ChildCode POR2217741123
+ERROR: Missing ChildCode for resp.id. 921
+ERROR: import for resp.id 951 POR2209062110 failed with message "I_PTFAM_PT_MOTHERSINCE_2: 38 anos -- [Please use mm/yyyy] 
+" and more
+ERROR: Missing ChildCode for resp.id. 952
+ERROR: Missing ChildCode for resp.id. 953
+INFO: Successfully imported data for POR2213251107 (SS_POR22132_3803)
+INFO: Successfully imported data for POR2216362118 (SS_POR22163_2689)
+INFO: Successfully imported data for POR2216362106 (SS_POR22163_5942)
+INFO: Successfully imported data for POR2232401107 (SS_POR22324_3981)
+INFO: Successfully imported data for POR2224471113 (SS_POR22244_7267)
+ERROR: import for resp.id 965 POR2213821101 failed with message "I_PTFAM_PT_FATHERSINCE_2: 5 -- [Please use mm/yyyy] 
+" and more
+INFO: Successfully imported data for POR2232341102 (SS_POR22323_6465)
+INFO: Successfully imported data for POR2218212126 (SS_POR22182_6608)
+ERROR: Missing ChildCode for resp.id. 968
+ERROR: import for resp.id 969 POR2232342103 failed with message "I_PTFAM_WEPLAYINGACTIVEH: 120 -- [Por favor, insira um número entre 0 e 99] 
+" and more
+INFO: Successfully imported data for POR2224472106 (SS_POR22244_9143)
+ERROR: import for resp.id 971 POR2209841102 failed with message "I_PTFAM_PT_MOTHERSINCE_2: 3 anos -- [Please use mm/yyyy]SS_POR22098_6301.SE_POR_CP.F_PTFAMILYFORM_V12.IG_PTFAM_UNGROUPED(1).I_PTFAM_PT_FATHERSINCE_2: 50 anos -- [Please use mm/yyyy] 
+" and more
+ERROR: missing OID for resp.id. 972 : ChildCode POR2232351107
+ERROR: import for resp.id 973 POR2232421116 failed with message "I_PTFAM_PT_MOTHERSINCE_2: 8 anos -- [Please use mm/yyyy] 
+" and more
+ERROR: import for resp.id 974 POR2232401106 failed with message "I_PTFAM_BEDTIME: 9:30 -- [Por favor, dê um tempo como 19:00 ou 02:45]SS_POR22324_697.SE_POR_CP.F_PTFAMILYFORM_V12.IG_PTFAM_UNGROUPED(1).I_PTFAM_WAKEUPTIME: 7:30 -- [Por favor, dê um tempo como 07:00 ou 12:45]SS_POR22324_697.SE_POR_CP.F_PTFAMILYFORM_V12.IG_PTFAM_UNGROUPED(1).I_PTFAM_WEPLAYINGACTIVEM: 118 -- [Por favor, insira um número entre 0 e 59] 
+" and more
+INFO: Successfully imported data for POR2209061121 (SS_POR22090_1154)
+ERROR: import for resp.id 976 POR2209062106 failed with message "I_PTFAM_PT_FATHERSINCE_2: Brasil -- [Please use mm/yyyy] 
+" and more
+INFO: Successfully imported data for POR2225951114 (SS_POR22259_2337)
+INFO: Successfully imported data for POR2232662111 (SS_POR22326_5286)
+INFO: Successfully imported data for POR2232402108 (SS_POR22324_1900)
+INFO: Successfully imported data for POR2232342111 (SS_POR22323_9027)
+INFO: Successfully imported data for POR2232341113 (SS_POR22323_3300)
+INFO: Successfully imported data for POR2216782108 (SS_POR22167_7897)
+INFO: Successfully imported data for POR2233882117 (SS_POR22338_2159)
+INFO: Successfully imported data for POR2234351109 (SS_POR22343_7831)
+ERROR: Missing ChildCode for resp.id. 985
+INFO: Successfully imported data for POR2232342119 (SS_POR22323_6877)
+INFO: Successfully imported data for POR2232342114 (SS_POR22323_1214)
+INFO: Successfully imported data for POR2232342109 (SS_POR22323_4626)
+INFO: Successfully imported data for POR2214161106 (SS_POR22141_4304)
+INFO: Successfully imported data for POR2232421120 (SS_POR22324_4810)
+ERROR: import for resp.id 991 POR2232401110 failed with message "I_PTFAM_PT_MOTHERSINCE_2: 13-09-1983 -- [Please use mm/yyyy] 
+" and more
+INFO: Successfully imported data for POR2232421120 (SS_POR22324_4810)
+INFO: Successfully imported data for POR2232341106 (SS_POR22323_4135)
+INFO: Successfully imported data for POR2216601105 (SS_POR22166_50)
+INFO: Successfully imported data for POR2214162115 (SS_POR22141_3314)
+ERROR: missing OID for resp.id. 996 : ChildCode POR2200013689
+INFO: Successfully imported data for POR2216601109 (SS_POR22166_4050)
+INFO: Successfully imported data for POR2232341106 (SS_POR22323_4135)
+ERROR: import for resp.id 999 POR2234281117 failed with message "I_PTFAM_PT_MOTHERSINCE_2: 9 anos -- [Please use mm/yyyy]SS_POR22342_141.SE_POR_CP.F_PTFAMILYFORM_V12.IG_PTFAM_UNGROUPED(1).I_PTFAM_PT_FATHERSINCE_2: 9 anos -- [Please use mm/yyyy] 
+" and more
+INFO: Successfully imported data for POR2216362101 (SS_POR22163_3821)
+INFO: Successfully imported data for POR2216601111 (SS_POR22166_9977)
+INFO: Successfully imported data for POR2216601110 (SS_POR22166_4762)
+INFO: Successfully imported data for POR2216601113 (SS_POR22166_348)
+INFO: Successfully imported data for POR2216601114 (SS_POR22166_7409)
+ERROR: missing OID for resp.id. 1005 : ChildCode POR2201660115
+INFO: Successfully imported data for POR2216601116 (SS_POR22166_6331)
+INFO: Successfully imported data for POR2216601118 (SS_POR22166_3683)
+INFO: Successfully imported data for POR2216601117 (SS_POR22166_5953)
+INFO: Successfully imported data for POR2232662123 (SS_POR22326_1595)
+INFO: Successfully imported data for POR2235891110 (SS_POR22358_514)
+ERROR: import for resp.id 1011 POR2232421105 failed with message "I_PTFAM_PT_CHILDSINCE_2: 23/2015 -- [Please use mm/yyyy] 
+" and more
+ERROR: Incorrect ChildCode for resp.id. 1012: 22
+INFO: Successfully imported data for POR2213281108 (SS_POR22132_9139)
+INFO: Successfully imported data for POR2207642110 (SS_POR22076_632)
+ERROR: Missing ChildCode for resp.id. 1015
+INFO: Successfully imported data for POR2213281107 (SS_POR22132_2372)
+INFO: Successfully imported data for POR2224471112 (SS_POR22244_2146)
+INFO: Successfully imported data for POR2231772118 (SS_POR22317_8428)
+INFO: Successfully imported data for POR2207641109 (SS_POR22076_9628)
+ERROR: import for resp.id 1020 POR2234022112 failed with message "I_PTFAM_PT_MOTHERSINCE_2: 8 anos -- [Please use mm/yyyy] 
+" and more
+ERROR: Missing ChildCode for resp.id. 1021
+ERROR: Missing ChildCode for resp.id. 1022
+ERROR: import for resp.id 1023 POR2232422112 failed with message "I_PTFAM_PT_FATHERSINCE_2: Brasil -- [Please use mm/yyyy] 
+" and more
+ERROR: Missing ChildCode for resp.id. 1024
+ERROR: Incorrect ChildCode for resp.id. 1025: 22
+INFO: Successfully imported data for POR2219361101 (SS_POR22193_2995)
+INFO: Successfully imported data for POR2232421123 (SS_POR22324_1736)
+ERROR: Missing ChildCode for resp.id. 1028
+INFO: Successfully imported data for POR2232421103 (SS_POR22324_4291)
+ERROR: Missing ChildCode for resp.id. 1030
+INFO: Successfully imported data for POR2232421118 (SS_POR22324_1672)
+ERROR: conversion for resp.id. 1032 POR2219361119 failed with message "CONVERSION-ERROR I_PTFAM_WEREADINGH value 1.5 to integer"/>            <ItemData ItemOID="I_PTFAM_WE" and more
+INFO: Successfully imported data for POR2232402102 (SS_POR22324_6997)
+INFO: Successfully imported data for POR2207641113 (SS_POR22076_1134)
+INFO: Successfully imported data for POR2213281115 (SS_POR22132_1531)
+ERROR: missing OID for resp.id. 1036 : ChildCode POR2222323421
+ERROR: missing OID for resp.id. 1037 : ChildCode POR2222323411
+INFO: Successfully imported data for POR2219361117 (SS_POR22193_6876)
+INFO: Successfully imported data for POR2207641106 (SS_POR22076_6867)
+INFO: Successfully imported data for POR2207641114 (SS_POR22076_9528)
+INFO: Successfully imported data for POR2219361111 (SS_POR22193_1162)
+INFO: Successfully imported data for POR2219592112 (SS_POR22195_9745)
+INFO: Successfully imported data for POR2232422117 (SS_POR22324_3020)
+INFO: Successfully imported data for POR2219361116 (SS_POR22193_2528)
+INFO: Successfully imported data for POR2207641107 (SS_POR22076_2987)
+INFO: Successfully imported data for POR2232401104 (SS_POR22324_4015)
+INFO: Successfully imported data for POR2216161103 (SS_POR22161_4496)
+INFO: Successfully imported data for POR2236661110 (SS_POR22366_2648)
+INFO: Successfully imported data for POR2219361113 (SS_POR22193_2299)
+INFO: Successfully imported data for POR2232421109 (SS_POR22324_6185)
+INFO: Successfully imported data for POR2207642113 (SS_POR22076_5075)
+INFO: Successfully imported data for POR2224472111 (SS_POR22244_2897)
+INFO: Successfully imported data for POR2224471111 (SS_POR22244_9104)
+INFO: Successfully imported data for POR2224472111 (SS_POR22244_2897)
+INFO: Successfully imported data for POR2224472111 (SS_POR22244_2897)
+INFO: Successfully imported data for POR2232401103 (SS_POR22324_8567)
+ERROR: import for resp.id 1057 POR2232421102 failed with message "I_PTFAM_PT_CHILDSINCE_2: 0/2015 -- [Please use mm/yyyy]SS_POR22324_1697.SE_POR_CP.F_PTFAMILYFORM_V12.IG_PTFAM_UNGROUPED(1).I_PTFAM_PT_FATHERSINCE_2: 6 anos -- [Please use mm/yyyy] 
+" and more
+ERROR: Missing ChildCode for resp.id. 1058
+INFO: Successfully imported data for POR2231772107 (SS_POR22317_7687)
+INFO: Successfully imported data for POR2232402106 (SS_POR22324_9738)
+INFO: Successfully imported data for POR2225952107 (SS_POR22259_3549)
+INFO: Successfully imported data for POR2219361107 (SS_POR22193_2810)
+INFO: Successfully imported data for POR2232401101 (SS_POR22324_5126)
+ERROR: missing OID for resp.id. 1064 : ChildCode POR2240000000
+INFO: Successfully imported data for POR2216362104 (SS_POR22163_8309)
+INFO: Successfully imported data for POR2216362102 (SS_POR22163_4437)
+INFO: Successfully imported data for POR2227532115 (SS_POR22275_9713)
+INFO: Successfully imported data for POR2216362119 (SS_POR22163_7657)
+ERROR: Missing ChildCode for resp.id. 1069
+INFO: Successfully imported data for POR2219361118 (SS_POR22193_8229)
+INFO: Successfully imported data for POR2219361112 (SS_POR22193_6884)
+INFO: Successfully imported data for POR2231542104 (SS_POR22315_3446)
+INFO: Successfully imported data for POR2213252102 (SS_POR22132_1510)
+INFO: Successfully imported data for POR2213281119 (SS_POR22132_7509)
+INFO: Successfully imported data for POR2231542104 (SS_POR22315_3446)
+ERROR: import for resp.id 1076 POR2232422108 failed with message "I_PTFAM_PT_CHILDSINCE_2: 5 anos -- [Please use mm/yyyy]SS_POR22324_8457.SE_POR_CP.F_PTFAMILYFORM_V12.IG_PTFAM_UNGROUPED(1).I_PTFAM_PT_MOTHERSINCE_2: 5 anos -- [Please use mm/yyyy] 
+" and more
+INFO: Successfully imported data for POR2213252114 (SS_POR22132_792)
+INFO: Successfully imported data for POR2213281112 (SS_POR22132_3116)
+INFO: Successfully imported data for POR2207642118 (SS_POR22076_2714)
+INFO: Successfully imported data for POR2224471107 (SS_POR22244_2144)
+INFO: Successfully imported data for POR2232421112 (SS_POR22324_5239)
+INFO: Successfully imported data for POR2231432107 (SS_POR22314_8204)
+ERROR: import for resp.id 1083 POR2233921118 failed with message "I_PTFAM_PT_CHILDSINCE_2: 5 meses  -- [Please use mm/yyyy]SS_POR22339_2446.SE_POR_CP.F_PTFAMILYFORM_V12.IG_PTFAM_UNGROUPED(1).I_PTFAM_PT_MOTHERSINCE_2: 13 anos de idade -- [Please use mm/yyyy]SS_POR22339_2446.SE_POR_CP.F_PTFAMILYFORM_V12.IG_PTFAM_UNGROUPED(1).I_PTFAM_PT_FATHERSINCE_2: 9 meses de idade -- [Please use mm/yyyy] 
+" and more
+INFO: Successfully imported data for POR2219361110 (SS_POR22193_7499)
+INFO: Successfully imported data for POR2207642118 (SS_POR22076_2714)
+INFO: Successfully imported data for POR2232701119 (SS_POR22327_3672)
+INFO: Successfully imported data for POR2213281119 (SS_POR22132_7509)
+INFO: Successfully imported data for POR2232422122 (SS_POR22324_200)
+INFO: Successfully imported data for POR2232421113 (SS_POR22324_2763)
+INFO: Successfully imported data for POR2207641102 (SS_POR22076_6861)
+INFO: Successfully imported data for POR2232702123 (SS_POR22327_8145)
+INFO: Successfully imported data for POR2232702105 (SS_POR22327_5688)
+INFO: Successfully imported data for POR2213252113 (SS_POR22132_6038)
+INFO: Successfully imported data for POR2200282111 (SS_POR22002_8652)
+INFO: Successfully imported data for POR2207321101 (SS_POR22073_9499)
+INFO: Successfully imported data for POR2219361115 (SS_POR22193_6673)
+INFO: Successfully imported data for POR2232702114 (SS_POR22327_5463)
+ERROR: import for resp.id 1098 POR2209062101 failed with message "I_PTFAM_PT_CHILDSINCE_2: 06  2018 -- [Please use mm/yyyy]SS_POR22090_7611.SE_POR_CP.F_PTFAMILYFORM_V12.IG_PTFAM_UNGROUPED(1).I_PTFAM_PT_MOTHERSINCE_2: 06 2018 -- [Please use mm/yyyy]SS_POR22090_7611.SE_POR_CP.F_PTFAMILYFORM_V12.IG_PTFAM_UNGROUPED(1).I_PTFAM_PT_FATHERSINCE_2: 04 2018 -- [Please use mm/yyyy] 
+" and more
+ERROR: missing OID for resp.id. 1099 : ChildCode POR2219036110
+ERROR: Missing ChildCode for resp.id. 1100
+INFO: Successfully imported data for POR2232342115 (SS_POR22323_6891)
+ERROR: Missing ChildCode for resp.id. 1102
+INFO: Successfully imported data for POR2218211124 (SS_POR22182_3124)
+INFO: Successfully imported data for POR2232661116 (SS_POR22326_5730)
+INFO: Successfully imported data for POR2231772107 (SS_POR22317_7687)
+INFO: Successfully imported data for POR2232702118 (SS_POR22327_4773)
+ERROR: Missing ChildCode for resp.id. 1107
+INFO: Successfully imported data for POR2207641103 (SS_POR22076_1929)
+INFO: Successfully imported data for POR2207641103 (SS_POR22076_1929)
+ERROR: Missing ChildCode for resp.id. 1110
+INFO: Successfully imported data for POR2232421117 (SS_POR22324_7713)
+INFO: Successfully imported data for POR2232342113 (SS_POR22323_1402)
+INFO: Successfully imported data for POR2234972103 (SS_POR22349_2774)
+ERROR: import for resp.id 1114 POR2231772122 failed with message "I_PTFAM_PT_MOTHERSINCE_2: Ucrania -- [Please use mm/yyyy]SS_POR22317_6222.SE_POR_CP.F_PTFAMILYFORM_V12.IG_PTFAM_UNGROUPED(1).I_PTFAM_PT_FATHERSINCE_2: não vive -- [Please use mm/yyyy] 
+" and more
+ERROR: Missing ChildCode for resp.id. 1115
+ERROR: Missing ChildCode for resp.id. 1116
+INFO: Successfully imported data for POR2231542107 (SS_POR22315_1512)
+ERROR: Incorrect ChildCode for resp.id. 1118: 22
+INFO: Successfully imported data for POR2219361119 (SS_POR22193_2255)
+ERROR: Missing ChildCode for resp.id. 1120
+ERROR: Missing ChildCode for resp.id. 1121
+INFO: Successfully imported data for POR2231772104 (SS_POR22317_5795)
+INFO: Successfully imported data for POR2228281116 (SS_POR22282_7951)
+INFO: Successfully imported data for POR2228281112 (SS_POR22282_5129)
+ERROR: import for resp.id 1125 POR2232342102 failed with message "I_PTFAM_PT_CHILDSINCE_2: 10082020 -- [Please use mm/yyyy] 
+" and more
+INFO: Successfully imported data for POR2232722103 (SS_POR22327_2454)
+INFO: Successfully imported data for POR2228281116 (SS_POR22282_7951)
+INFO: Successfully imported data for POR2214532104 (SS_POR22145_3403)
+INFO: Successfully imported data for POR2232341114 (SS_POR22323_1392)
+INFO: Successfully imported data for POR2231542107 (SS_POR22315_1512)
+INFO: Successfully imported data for POR2213252103 (SS_POR22132_8793)
+INFO: Successfully imported data for POR2231541122 (SS_POR22315_7635)
+INFO: Successfully imported data for POR2207641101 (SS_POR22076_9488)
+INFO: Successfully imported data for POR2213492119 (SS_POR22134_8580)
+ERROR: Missing ChildCode for resp.id. 1135
+INFO: Successfully imported data for POR2231541124 (SS_POR22315_8522)
+INFO: Successfully imported data for POR2231541108 (SS_POR22315_6873)
+ERROR: Missing ChildCode for resp.id. 1138
+ERROR: Missing ChildCode for resp.id. 1139
+INFO: Successfully imported data for POR2232342108 (SS_POR22323_2207)
+ERROR: import for resp.id 1141 POR2231542115 failed with message "I_PTFAM_BEDTIME: 22h00 -- [Por favor, dê um tempo como 19:00 ou 02:45]SS_POR22315_8675.SE_POR_CP.F_PTFAMILYFORM_V12.IG_PTFAM_UNGROUPED(1).I_PTFAM_WAKEUPTIME: 8h00 -- [Por favor, dê um tempo como 07:00 ou 12:45]SS_POR22315_8675.SE_POR_CP.F_PTFAMILYFORM_V12.IG_PTFAM_UNGROUPED(1).I_PTFAM_WDSPLAYINGACTIVEM: 60 -- [Por favor, insira um número entre 0 e 59]SS_POR22315_8675.SE_POR_CP.F_PTFAMILYFORM_V12.IG_PTFAM_UNGROUPED(1).I_PTFAM_WEPLAYINGACTIVEM: 721 -- [Por favor, insira um número entre 0 e 59]SS_POR22315_8675.SE_POR_CP.F_PTFAMILYFORM_V12.IG_PTFAM_UNGROUPED(1).I_PTFAM_WDREADINGM: 602 -- [Por favor, insira um número entre 0 e 59]SS_POR22315_8675.SE_POR_CP.F_PTFAMILYFORM_V12.IG_PTFAM_UNGROUPED(1).I_PTFAM_WDELECTRONICSM: 240 -- [Por favor, insira um número entre 0 e 59]SS_POR22315_8675.SE_POR_CP.F_PTFAMILYFORM_V12.IG_PTFAM_UNGROUPED(1).I_PTFAM_WEELECTRONICSM: 360 -- [Por favor, insira um número entre 0 e 59] 
+" and more
+ERROR: Incorrect ChildCode for resp.id. 1142: 6
+INFO: Successfully imported data for POR2232702116 (SS_POR22327_4333)
+INFO: Successfully imported data for POR2206082116 (SS_POR22073_242)
+ERROR: Incorrect ChildCode for resp.id. 1145: 22
+INFO: Successfully imported data for POR2232361107 (SS_POR22323_5450)
+INFO: Successfully imported data for POR2232362113 (SS_POR22323_6327)
+ERROR: Missing ChildCode for resp.id. 1148
+ERROR: Missing ChildCode for resp.id. 1149
+INFO: Successfully imported data for POR2232362106 (SS_POR22323_8266)
+ERROR: Missing ChildCode for resp.id. 1151
+INFO: Successfully imported data for POR2232362110 (SS_POR22323_5192)
+INFO: Successfully imported data for POR2228281116 (SS_POR22282_7951)
+INFO: Successfully imported data for POR2213492102 (SS_POR22134_8492)
+INFO: Successfully imported data for POR2200281121 (SS_POR22002_9381)
+INFO: Successfully imported data for POR2231541102 (SS_POR22315_9062)
+INFO: Successfully imported data for POR2231541106 (SS_POR22315_1099)
+INFO: Successfully imported data for POR2232342112 (SS_POR22323_5233)
+INFO: Successfully imported data for POR2228281118 (SS_POR22282_8888)
+ERROR: Missing ChildCode for resp.id. 1160
+INFO: Successfully imported data for POR2213251102 (SS_POR22132_9580)
+INFO: Successfully imported data for POR2233922118 (SS_POR22339_1116)
+ERROR: Missing ChildCode for resp.id. 1163
+ERROR: import for resp.id 1164 POR2235891107 failed with message "I_PTFAM_PT_MOTHERSINCE_2: 8 -- [Please use mm/yyyy] 
+" and more
+INFO: Successfully imported data for POR2232341108 (SS_POR22323_1867)
+INFO: Successfully imported data for POR2228282109 (SS_POR22282_8465)
+INFO: Successfully imported data for POR2228281105 (SS_POR22282_9512)
+INFO: Successfully imported data for POR2231541119 (SS_POR22315_1078)
+ERROR: missing OID for resp.id. 1169 : ChildCode POR2201325119
+INFO: Successfully imported data for POR2207642109 (SS_POR22076_8229)
+INFO: Successfully imported data for POR2232342108 (SS_POR22323_2207)
+INFO: Successfully imported data for POR2213601115 (SS_POR22136_3840)
+INFO: Successfully imported data for POR2231541116 (SS_POR22315_3169)
+INFO: Successfully imported data for POR2213601101 (SS_POR22136_7120)
+INFO: Successfully imported data for POR2219361103 (SS_POR22193_4044)
+INFO: Successfully imported data for POR2232421121 (SS_POR22324_7050)
+ERROR: Missing ChildCode for resp.id. 1177
+INFO: Successfully imported data for POR2213602109 (SS_POR22136_2197)
+ERROR: Missing ChildCode for resp.id. 1179
+INFO: Successfully imported data for POR2216362103 (SS_POR22163_5579)
+INFO: Successfully imported data for POR2232422103 (SS_POR22324_9060)
+INFO: Successfully imported data for POR2232701101 (SS_POR22327_9968)
+INFO: Successfully imported data for POR2228282104 (SS_POR22282_9473)
+INFO: Successfully imported data for POR2213601101 (SS_POR22136_7120)
+ERROR: Missing ChildCode for resp.id. 1185
+INFO: Successfully imported data for POR2231431109 (SS_POR22314_412)
+INFO: Successfully imported data for POR2232631102 (SS_POR22326_314)
+INFO: Successfully imported data for POR2232631102 (SS_POR22326_314)
+INFO: Successfully imported data for POR2213491113 (SS_POR22134_7627)
+INFO: Successfully imported data for POR2234732107 (SS_POR22347_9486)
+ERROR: Missing ChildCode for resp.id. 1191
+INFO: Successfully imported data for POR2232701116 (SS_POR22327_3170)
+ERROR: Missing ChildCode for resp.id. 1193
+INFO: Successfully imported data for POR2232701105 (SS_POR22327_5473)
+INFO: Successfully imported data for POR2206462104 (SS_POR22055_3809)
+INFO: Successfully imported data for POR2232362101 (SS_POR22323_7245)
+INFO: Successfully imported data for POR2232421122 (SS_POR22324_4116)
+INFO: Successfully imported data for POR2232701102 (SS_POR22327_2829)
+ERROR: Missing ChildCode for resp.id. 1199
+INFO: Successfully imported data for POR2231541102 (SS_POR22315_9062)
+INFO: Successfully imported data for POR2206461124 (SS_POR22055_7196)
+ERROR: Missing ChildCode for resp.id. 1202
+INFO: Successfully imported data for POR2232362115 (SS_POR22323_6497)
+INFO: Successfully imported data for POR2231831107 (SS_POR22318_4825)
+ERROR: Missing ChildCode for resp.id. 1205
+INFO: Successfully imported data for POR2234971112 (SS_POR22349_9244)
+ERROR: Missing ChildCode for resp.id. 1207
+ERROR: Missing ChildCode for resp.id. 1208
+ERROR: Missing ChildCode for resp.id. 1209
+ERROR: Missing ChildCode for resp.id. 1210
+ERROR: Missing ChildCode for resp.id. 1211
+ERROR: Missing ChildCode for resp.id. 1212
+ERROR: Missing ChildCode for resp.id. 1213
+ERROR: Missing ChildCode for resp.id. 1214
+INFO: Successfully imported data for POR2232702113 (SS_POR22327_750)
+ERROR: Missing ChildCode for resp.id. 1216
+ERROR: Missing ChildCode for resp.id. 1217
+ERROR: missing OID for resp.id. 1218 : ChildCode POR2202200000
+ERROR: Missing ChildCode for resp.id. 1219
+ERROR: Missing ChildCode for resp.id. 1220
+ERROR: Missing ChildCode for resp.id. 1221
+INFO: Successfully imported data for POR2234351103 (SS_POR22343_7217)
+INFO: Successfully imported data for POR2218021110 (SS_POR22180_9428)
+INFO: Successfully imported data for POR2233421108 (SS_POR22334_9858)
+ERROR: Missing ChildCode for resp.id. 1225
+INFO: Successfully imported data for POR2234641102 (SS_POR22346_6018)
+INFO: Successfully imported data for POR2233421108 (SS_POR22334_9858)
+INFO: Successfully imported data for POR2206381105 (SS_POR22063_8004)
+ERROR: Missing ChildCode for resp.id. 1229
+INFO: Successfully imported data for POR2233421108 (SS_POR22334_9858)
+ERROR: Missing ChildCode for resp.id. 1231
+ERROR: Missing ChildCode for resp.id. 1232
+INFO: Successfully imported data for POR2234641120 (SS_POR22346_1905)
+ERROR: import for resp.id 1234 POR2213601118 failed with message "I_PTFAM_PT_MOTHERSINCE_2: 6 -- [Please use mm/yyyy] 
+" and more
+INFO: Successfully imported data for POR2218561118 (SS_POR22185_986)
+ERROR: missing OID for resp.id. 1236 : ChildCode POR2204972106
+INFO: Successfully imported data for POR2207642114 (SS_POR22076_5757)
+INFO: Successfully imported data for POR2232701108 (SS_POR22327_8009)
+INFO: Successfully imported data for POR2231541113 (SS_POR22315_3623)
+INFO: Successfully imported data for POR2206462104 (SS_POR22055_3809)
+INFO: Successfully imported data for POR2227531114 (SS_POR22275_1527)
+INFO: Successfully imported data for POR2234971110 (SS_POR22349_924)
+INFO: Successfully imported data for POR2231432103 (SS_POR22314_6519)
+ERROR: Missing ChildCode for resp.id. 1244
+INFO: Successfully imported data for POR2232421107 (SS_POR22324_2412)
+ERROR: Incorrect ChildCode for resp.id. 1246: 22
+ERROR: Missing ChildCode for resp.id. 1247
+INFO: Successfully imported data for POR2232422111 (SS_POR22324_5770)
+INFO: Successfully imported data for POR2213602108 (SS_POR22136_85)
+INFO: Successfully imported data for POR2213602118 (SS_POR22136_5466)
+INFO: Successfully imported data for POR2213251114 (SS_POR22132_9532)
+INFO: Successfully imported data for POR2213602103 (SS_POR22136_1198)
+INFO: Successfully imported data for POR2213602103 (SS_POR22136_1198)
+ERROR: Missing ChildCode for resp.id. 1254
+INFO: Successfully imported data for POR2232701101 (SS_POR22327_9968)
+INFO: Successfully imported data for POR2213492104 (SS_POR22134_3918)
+ERROR: Incorrect ChildCode for resp.id. 1257: 25
+ERROR: missing OID for resp.id. 1258 : ChildCode POR2204972106
+INFO: Successfully imported data for POR2213602107 (SS_POR22136_6713)
+INFO: Successfully imported data for POR2206382107 (SS_POR22063_5165)
+INFO: Successfully imported data for POR2206382120 (SS_POR22063_8994)
+INFO: Successfully imported data for POR2213602101 (SS_POR22136_9401)
+INFO: Successfully imported data for POR2228282108 (SS_POR22282_3574)
+INFO: Successfully imported data for POR2234731110 (SS_POR22347_3652)
+INFO: Successfully imported data for POR2210272109 (SS_POR22102_2503)
+ERROR: Missing ChildCode for resp.id. 1266
+ERROR: missing OID for resp.id. 1267 : ChildCode POR2200346421
+INFO: Successfully imported data for POR2213491102 (SS_POR22134_2592)
+INFO: Successfully imported data for POR2234642114 (SS_POR22346_7888)
+ERROR: import for resp.id 1270 POR2234642107 failed with message "I_PTFAM_PT_MOTHERSINCE_2: 25 -- [Please use mm/yyyy] 
+" and more
+INFO: Successfully imported data for POR2231772111 (SS_POR22317_6507)
+INFO: Successfully imported data for POR2234642115 (SS_POR22346_6618)
+INFO: Successfully imported data for POR2234642102 (SS_POR22346_4965)
+INFO: Successfully imported data for POR2231772111 (SS_POR22317_6507)
+INFO: Successfully imported data for POR2213602117 (SS_POR22136_9077)
+ERROR: import for resp.id 1276 POR2213491120 failed with message "I_PTFAM_PT_MOTHERSINCE_2: Há 14 anos -- [Please use mm/yyyy] 
+" and more
+INFO: Successfully imported data for POR2234642119 (SS_POR22346_7722)
+INFO: Successfully imported data for POR2234642121 (SS_POR22346_2417)
+ERROR: import for resp.id 1279 POR2213252109 failed with message "I_PTFAM_PT_CHILDSINCE_2: 11/02/2020 -- [Please use mm/yyyy]SS_POR22132_5858.SE_POR_CP.F_PTFAMILYFORM_V12.IG_PTFAM_UNGROUPED(1).I_PTFAM_PT_MOTHERSINCE_2: 2 anos -- [Please use mm/yyyy]SS_POR22132_5858.SE_POR_CP.F_PTFAMILYFORM_V12.IG_PTFAM_UNGROUPED(1).I_PTFAM_PT_FATHERSINCE_2: 4 anos -- [Please use mm/yyyy] 
+" and more
+INFO: Successfully imported data for POR2206382103 (SS_POR22063_4744)
+ERROR: missing OID for resp.id. 1281 : ChildCode POR2200346421
+INFO: Successfully imported data for POR2213252101 (SS_POR22132_1309)
+INFO: Successfully imported data for POR2213252101 (SS_POR22132_1309)
+INFO: Successfully imported data for POR2216532107 (SS_POR22165_1817)
+INFO: Successfully imported data for POR2234642117 (SS_POR22346_9238)
+INFO: Successfully imported data for POR2216532115 (SS_POR22165_5280)
+INFO: Successfully imported data for POR2216532117 (SS_POR22165_6060)
+INFO: Successfully imported data for POR2236341107 (SS_POR22363_4125)
+ERROR: missing OID for resp.id. 1289 : ChildCode POR2200346421
+INFO: Successfully imported data for POR2234642123 (SS_POR22346_323)
+ERROR: missing OID for resp.id. 1291 : ChildCode POR2200346421
+INFO: Successfully imported data for POR2232362121 (SS_POR22323_9804)
+INFO: Successfully imported data for POR2207641108 (SS_POR22076_9111)
+INFO: Successfully imported data for POR2207641108 (SS_POR22076_9111)
+INFO: Successfully imported data for POR2206462111 (SS_POR22055_2939)
+INFO: Successfully imported data for POR2206382113 (SS_POR22063_590)
+INFO: Successfully imported data for POR2213602104 (SS_POR22136_1509)
+INFO: Successfully imported data for POR2228282111 (SS_POR22282_3655)
+ERROR: Missing ChildCode for resp.id. 1299
+INFO: Successfully imported data for POR2213252108 (SS_POR22132_7058)
+ERROR: missing OID for resp.id. 1301 : ChildCode POR2234346421
+ERROR: missing OID for resp.id. 1302 : ChildCode POR2200346421
+INFO: Successfully imported data for POR2234642112 (SS_POR22346_8060)
+INFO: Successfully imported data for POR2231542112 (SS_POR22315_8116)
+ERROR: missing OID for resp.id. 1305 : ChildCode POR2200346421
+INFO: Successfully imported data for POR2232661101 (SS_POR22326_1363)
+INFO: Successfully imported data for POR2228281105 (SS_POR22282_9512)
+INFO: Successfully imported data for POR2232701111 (SS_POR22327_5809)
+INFO: Successfully imported data for POR2213252104 (SS_POR22132_8007)
+ERROR: missing OID for resp.id. 1310 : ChildCode POR2213351112
+INFO: Successfully imported data for POR2213251111 (SS_POR22132_4846)
+ERROR: import for resp.id 1312 POR2234642105 failed with message "I_PTFAM_BEDTIME: 21h:15m -- [Por favor, dê um tempo como 19:00 ou 02:45]SS_POR22346_7682.SE_POR_CP.F_PTFAMILYFORM_V12.IG_PTFAM_UNGROUPED(1).I_PTFAM_WAKEUPTIME: 8h:05m -- [Por favor, dê um tempo como 07:00 ou 12:45] 
+" and more
+INFO: Successfully imported data for POR2216532112 (SS_POR22165_501)
+INFO: Successfully imported data for POR2216532106 (SS_POR22165_5947)
+INFO: Successfully imported data for POR2213251123 (SS_POR22132_9406)
+INFO: Successfully imported data for POR2216532113 (SS_POR22165_505)
+ERROR: import for resp.id 1317 POR2213251120 failed with message "I_PTFAM_PT_FATHERSINCE_2: Nova - Lisboa ( Angola) -- [Please use mm/yyyy] 
+" and more
+INFO: Successfully imported data for POR2216532103 (SS_POR22165_2520)
+INFO: Successfully imported data for POR2234642124 (SS_POR22346_8391)
+INFO: Successfully imported data for POR2216532105 (SS_POR22165_8789)
+INFO: Successfully imported data for POR2216532102 (SS_POR22165_3441)
+INFO: Successfully imported data for POR2213491108 (SS_POR22134_7326)
+INFO: Successfully imported data for POR2228281105 (SS_POR22282_9512)
+INFO: Successfully imported data for POR2232701109 (SS_POR22327_3516)
+INFO: Successfully imported data for POR2232701111 (SS_POR22327_5809)
+ERROR: Missing ChildCode for resp.id. 1326
+INFO: Successfully imported data for POR2213251107 (SS_POR22132_3803)
+INFO: Successfully imported data for POR2206461107 (SS_POR22055_8253)
+INFO: Successfully imported data for POR2213251105 (SS_POR22132_5614)
+INFO: Successfully imported data for POR2228282101 (SS_POR22282_7908)
+INFO: Successfully imported data for POR2213492120 (SS_POR22134_7618)
+ERROR: import for resp.id 1332 POR2234642105 failed with message "I_PTFAM_BEDTIME: 21horas15minutos -- [Por favor, dê um tempo como 19:00 ou 02:45]SS_POR22346_7682.SE_POR_CP.F_PTFAMILYFORM_V12.IG_PTFAM_UNGROUPED(1).I_PTFAM_WAKEUPTIME: 8h -- [Por favor, dê um tempo como 07:00 ou 12:45] 
+" and more
+ERROR: import for resp.id 1333 POR2227531101 failed with message "I_PTFAM_PT_FATHERSINCE_2: desde os 2 anos idade -- [Please use mm/yyyy] 
+" and more
+INFO: Successfully imported data for POR2232701112 (SS_POR22327_2301)
+INFO: Successfully imported data for POR2213492120 (SS_POR22134_7618)
+INFO: Successfully imported data for POR2234971111 (SS_POR22349_3968)
+INFO: Successfully imported data for POR2232362104 (SS_POR22323_823)
+INFO: Successfully imported data for POR2206381109 (SS_POR22063_819)
+ERROR: import for resp.id 1339 POR2213492118 failed with message "I_PTFAM_BEDTIME: 21hh.30mm -- [Por favor, dê um tempo como 19:00 ou 02:45]SS_POR22134_4115.SE_POR_CP.F_PTFAMILYFORM_V12.IG_PTFAM_UNGROUPED(1).I_PTFAM_WAKEUPTIME: 07,30 -- [Por favor, dê um tempo como 07:00 ou 12:45] 
+" and more
+INFO: Successfully imported data for POR2233811104 (SS_POR22338_7487)
+ERROR: Missing ChildCode for resp.id. 1341
+ERROR: Missing ChildCode for resp.id. 1342
+INFO: Successfully imported data for POR2213601119 (SS_POR22136_9624)
+ERROR: Missing ChildCode for resp.id. 1344
+INFO: Successfully imported data for POR2216362108 (SS_POR22163_1233)
+ERROR: missing OID for resp.id. 1346 : ChildCode POR2213482108
+INFO: Successfully imported data for POR2206381109 (SS_POR22063_819)
+INFO: Successfully imported data for POR2216362108 (SS_POR22163_1233)
+INFO: Successfully imported data for POR2213492118 (SS_POR22134_4115)
+INFO: Successfully imported data for POR2216362117 (SS_POR22163_8211)
+INFO: Successfully imported data for POR2216362109 (SS_POR22163_4122)
+ERROR: import for resp.id 1352 POR2232342117 failed with message "I_PTFAM_PT_CHILDSINCE_2: O8/2018 -- [Please use mm/yyyy] 
+" and more
+INFO: Successfully imported data for POR2216362107 (SS_POR22163_4219)
+INFO: Successfully imported data for POR2234641107 (SS_POR22346_4914)
+INFO: Successfully imported data for POR2234641114 (SS_POR22346_2969)
+ERROR: Missing ChildCode for resp.id. 1356
+INFO: Successfully imported data for POR2213492110 (SS_POR22134_7216)
+INFO: Successfully imported data for POR2231722122 (SS_POR22317_3762)
+ERROR: import for resp.id 1359 POR2213492105 failed with message "I_PTFAM_PT_FATHERSINCE_2: 6 anos -- [Please use mm/yyyy] 
+" and more
+ERROR: import for resp.id 1360 POR2218952110 failed with message "I_PTFAM_PT_FATHERSINCE_2: Índia  -- [Please use mm/yyyy] 
+" and more
+INFO: Successfully imported data for POR2231722122 (SS_POR22317_3762)
+INFO: Successfully imported data for POR2218952107 (SS_POR22189_4953)
+INFO: Successfully imported data for POR2216362110 (SS_POR22163_9822)
+INFO: Successfully imported data for POR2218952121 (SS_POR22189_959)
+INFO: Successfully imported data for POR2216362116 (SS_POR22163_2673)
+INFO: Successfully imported data for POR2216362105 (SS_POR22163_9673)
+INFO: Successfully imported data for POR2232702106 (SS_POR22327_9086)
+INFO: Successfully imported data for POR2236441108 (SS_POR22364_6943)
+INFO: Successfully imported data for POR2206382106 (SS_POR22063_4810)
+INFO: Successfully imported data for POR2236441107 (SS_POR22364_4989)
+INFO: Successfully imported data for POR2236441105 (SS_POR22364_7417)
+INFO: Successfully imported data for POR2232661113 (SS_POR22326_5171)
+INFO: Successfully imported data for POR2225951101 (SS_POR22259_1949)
+INFO: Successfully imported data for POR2231722121 (SS_POR22317_234)
+INFO: Successfully imported data for POR2231721103 (SS_POR22317_9386)
+INFO: Successfully imported data for POR2206382115 (SS_POR22063_2047)
+INFO: Successfully imported data for POR2234642108 (SS_POR22346_2695)
+INFO: Successfully imported data for POR2234642108 (SS_POR22346_2695)
+INFO: Successfully imported data for POR2224002107 (SS_POR22240_6370)
+INFO: Successfully imported data for POR2214741112 (SS_POR22147_8565)
+INFO: Successfully imported data for POR2231771110 (SS_POR22317_8461)
+ERROR: import for resp.id 1382 POR2231721115 failed with message "I_PTFAM_PT_MOTHERSINCE_2: 7 -- [Please use mm/yyyy] 
+" and more
+INFO: Successfully imported data for POR2224001103 (SS_POR22240_1079)
+INFO: Successfully imported data for POR2232702108 (SS_POR22327_4092)
+INFO: Successfully imported data for POR2231771110 (SS_POR22317_8461)
+ERROR: Missing ChildCode for resp.id. 1386
+INFO: Successfully imported data for POR2216362120 (SS_POR22163_7851)
+INFO: Successfully imported data for POR2231772102 (SS_POR22317_9201)
+INFO: Successfully imported data for POR2224002105 (SS_POR22240_9033)
+INFO: Successfully imported data for POR2234642104 (SS_POR22346_1624)
+INFO: Successfully imported data for POR2216362115 (SS_POR22163_3219)
+INFO: Successfully imported data for POR2206382108 (SS_POR22063_5063)
+INFO: Successfully imported data for POR2231721103 (SS_POR22317_9386)
+INFO: Successfully imported data for POR2231542118 (SS_POR22315_9926)
+INFO: Successfully imported data for POR2224001109 (SS_POR22240_6833)
+INFO: Successfully imported data for POR2231721112 (SS_POR22317_6275)
+INFO: Successfully imported data for POR2228282114 (SS_POR22282_7124)
+INFO: Successfully imported data for POR2231722110 (SS_POR22317_4943)
+ERROR: import for resp.id 1399 POR2234971115 failed with message "I_PTFAM_PT_CHILDSINCE_2: Outubro de 2021 -- [Please use mm/yyyy]SS_POR22349_3291.SE_POR_CP.F_PTFAMILYFORM_V12.IG_PTFAM_UNGROUPED(1).I_PTFAM_PT_MOTHERSINCE_2: Outubro de 2021 -- [Please use mm/yyyy]SS_POR22349_3291.SE_POR_CP.F_PTFAMILYFORM_V12.IG_PTFAM_UNGROUPED(1).I_PTFAM_PT_FATHERSINCE_2: Outubro de 2021 -- [Please use mm/yyyy] 
+" and more
+INFO: Successfully imported data for POR2231722103 (SS_POR22317_1623)
+ERROR: Missing ChildCode for resp.id. 1401
+INFO: Successfully imported data for POR2228462120 (SS_POR22284_9054)
+INFO: Successfully imported data for POR2231722112 (SS_POR22317_4453)
+INFO: Successfully imported data for POR2213492110 (SS_POR22134_7216)
+INFO: Successfully imported data for POR2225951101 (SS_POR22259_1949)
+INFO: Successfully imported data for POR2228462114 (SS_POR22284_6241)
+INFO: Successfully imported data for POR2213492110 (SS_POR22134_7216)
+INFO: Successfully imported data for POR2224001102 (SS_POR22240_9060)
+INFO: Successfully imported data for POR2231721113 (SS_POR22317_9713)
+INFO: Successfully imported data for POR2213601107 (SS_POR22136_1000)
+ERROR: missing OID for resp.id. 1411 : ChildCode POR2222136011
+INFO: Successfully imported data for POR2231771121 (SS_POR22317_5387)
+INFO: Successfully imported data for POR2209061120 (SS_POR22090_5639)
+ERROR: Missing ChildCode for resp.id. 1414
+INFO: Successfully imported data for POR2205841106 (SS_POR22058_5036)
+INFO: Successfully imported data for POR2205841111 (SS_POR22058_2420)
+INFO: Successfully imported data for POR2205732110 (SS_POR22057_4101)
+INFO: Successfully imported data for POR2228461104 (SS_POR22284_9205)
+INFO: Successfully imported data for POR2234642105 (SS_POR22346_7682)
+INFO: Successfully imported data for POR2232362109 (SS_POR22323_7308)
+INFO: Successfully imported data for POR2232362109 (SS_POR22323_7308)
+INFO: Successfully imported data for POR2232261117 (SS_POR22322_5810)
+ERROR: Missing ChildCode for resp.id. 1423
+INFO: Successfully imported data for POR2231771121 (SS_POR22317_5387)
+INFO: Successfully imported data for POR2234971118 (SS_POR22349_1099)
+INFO: Successfully imported data for POR2231721114 (SS_POR22317_3675)
+INFO: Successfully imported data for POR2228462104 (SS_POR22284_5833)
+ERROR: missing OID for resp.id. 1428 : ChildCode POR2205732100
+INFO: Successfully imported data for POR2205841112 (SS_POR22058_1171)
+INFO: Successfully imported data for POR2205841104 (SS_POR22058_1011)
+INFO: Successfully imported data for POR2231722109 (SS_POR22317_7446)
+INFO: Successfully imported data for POR2231771102 (SS_POR22317_3668)
+INFO: Successfully imported data for POR2232261115 (SS_POR22322_6489)
+INFO: Successfully imported data for POR2205732113 (SS_POR22057_873)
+INFO: Successfully imported data for POR2209671105 (SS_POR22096_4514)
+INFO: Successfully imported data for POR2220572110 (SS_POR22205_3826)
+INFO: Successfully imported data for POR2205841112 (SS_POR22058_1171)
+INFO: Successfully imported data for POR2205731106 (SS_POR22057_6415)
+INFO: Successfully imported data for POR2234971107 (SS_POR22349_133)
+ERROR: missing OID for resp.id. 1440 : ChildCode POR2201360108
+ERROR: Missing ChildCode for resp.id. 1441
+ERROR: Missing ChildCode for resp.id. 1442
+ERROR: Missing ChildCode for resp.id. 1443
+INFO: Successfully imported data for POR2213602120 (SS_POR22136_97)
+INFO: Successfully imported data for POR2232661120 (SS_POR22326_352)
+ERROR: Missing ChildCode for resp.id. 1446
+INFO: Successfully imported data for POR2228461107 (SS_POR22284_5405)
+ERROR: Missing ChildCode for resp.id. 1448
+INFO: Successfully imported data for POR2232342101 (SS_POR22323_5927)
+INFO: Successfully imported data for POR2228462117 (SS_POR22284_6867)
+INFO: Successfully imported data for POR2228461115 (SS_POR22284_8301)
+INFO: Successfully imported data for POR2232261121 (SS_POR22322_8767)
+ERROR: Missing ChildCode for resp.id. 1453
+ERROR: Missing ChildCode for resp.id. 1454
+INFO: Successfully imported data for POR2205732103 (SS_POR22057_2664)
+ERROR: import for resp.id 1456 POR2213602120 failed with message "I_PTFAM_PT_MOTHERSINCE_2: 34 -- [Please use mm/yyyy]SS_POR22136_97.SE_POR_CP.F_PTFAMILYFORM_V12.IG_PTFAM_UNGROUPED(1).I_PTFAM_PT_FATHERSINCE_2: 18 -- [Please use mm/yyyy] 
+" and more
+INFO: Successfully imported data for POR2231722118 (SS_POR22317_7904)
+ERROR: Missing ChildCode for resp.id. 1458
+INFO: Successfully imported data for POR2213601111 (SS_POR22136_560)
+INFO: Successfully imported data for POR2228461103 (SS_POR22284_6631)
+INFO: Successfully imported data for POR2206711104 (SS_POR22120_2082)
+INFO: Successfully imported data for POR2228281103 (SS_POR22282_7351)
+INFO: Successfully imported data for POR2214531108 (SS_POR22145_674)
+ERROR: Missing ChildCode for resp.id. 1464
+INFO: Successfully imported data for POR2235781102 (SS_POR22357_4248)
+INFO: Successfully imported data for POR2231361114 (SS_POR22313_7672)
+INFO: Successfully imported data for POR2206381108 (SS_POR22063_3560)
+INFO: Successfully imported data for POR2209721109 (SS_POR22040_1097)
+INFO: Successfully imported data for POR2214531113 (SS_POR22145_8866)
+INFO: Successfully imported data for POR2235782114 (SS_POR22357_5694)
+INFO: Successfully imported data for POR2235781117 (SS_POR22357_6864)
+INFO: Successfully imported data for POR2205722105 (SS_POR22057_3225)
+INFO: Successfully imported data for POR2232402101 (SS_POR22324_9752)
+ERROR: Missing ChildCode for resp.id. 1474
+ERROR: Missing ChildCode for resp.id. 1475
+ERROR: import for resp.id 1476 POR2231722124 failed with message "I_PTFAM_PT_CHILDSINCE_2: 2 anos -- [Please use mm/yyyy]SS_POR22317_5841.SE_POR_CP.F_PTFAMILYFORM_V12.IG_PTFAM_UNGROUPED(1).I_PTFAM_PT_MOTHERSINCE_2: 2 anos -- [Please use mm/yyyy]SS_POR22317_5841.SE_POR_CP.F_PTFAMILYFORM_V12.IG_PTFAM_UNGROUPED(1).I_PTFAM_PT_FATHERSINCE_2: 0 -- [Please use mm/yyyy] 
+" and more
+ERROR: Missing ChildCode for resp.id. 1477
+INFO: Successfully imported data for POR2235781103 (SS_POR22357_930)
+INFO: Successfully imported data for POR2235782112 (SS_POR22357_6309)
+ERROR: Missing ChildCode for resp.id. 1480
+ERROR: Missing ChildCode for resp.id. 1481
+ERROR: import for resp.id 1482 POR2235781114 failed with message "I_PTFAM_PT_MOTHERSINCE_2: 28 -- [Please use mm/yyyy] 
+" and more
+INFO: Successfully imported data for POR2232401102 (SS_POR22324_6552)
+INFO: Successfully imported data for POR2234971112 (SS_POR22349_9244)
+INFO: Successfully imported data for POR2232401108 (SS_POR22324_4796)
+INFO: Successfully imported data for POR2235782116 (SS_POR22357_8035)
+INFO: Successfully imported data for POR2205732106 (SS_POR22057_4232)
+INFO: Successfully imported data for POR2205731114 (SS_POR22057_3375)
+INFO: Successfully imported data for POR2205732108 (SS_POR22057_205)
+ERROR: import for resp.id 1490 POR2209061120 failed with message "I_PTFAM_PT_MOTHERSINCE_2: França -- [Please use mm/yyyy] 
+" and more
+ERROR: Missing ChildCode for resp.id. 1491
+INFO: Successfully imported data for POR2231361103 (SS_POR22313_3164)
+INFO: Successfully imported data for POR2235781113 (SS_POR22357_3264)
+INFO: Successfully imported data for POR2235782101 (SS_POR22357_6610)
+INFO: Successfully imported data for POR2205732101 (SS_POR22057_1793)
+INFO: Successfully imported data for POR2205731102 (SS_POR22057_4026)
+INFO: Successfully imported data for POR2205722113 (SS_POR22057_3314)
+INFO: Successfully imported data for POR2214531120 (SS_POR22145_2223)
+INFO: Successfully imported data for POR2232261110 (SS_POR22322_4023)
+INFO: Successfully imported data for POR2231361102 (SS_POR22313_935)
+INFO: Successfully imported data for POR2235782114 (SS_POR22357_5694)
+INFO: Successfully imported data for POR2206382117 (SS_POR22063_3497)
+INFO: Successfully imported data for POR2232262117 (SS_POR22322_8405)
+INFO: Successfully imported data for POR2211771104 (SS_POR22117_7763)
+INFO: Successfully imported data for POR2232262117 (SS_POR22322_8405)
+INFO: Successfully imported data for POR2232661115 (SS_POR22326_9354)
+INFO: Successfully imported data for POR2205722108 (SS_POR22057_3202)
+INFO: Successfully imported data for POR2206381116 (SS_POR22063_5493)
+INFO: Successfully imported data for POR2235782117 (SS_POR22357_48)
+INFO: Successfully imported data for POR2228461114 (SS_POR22284_8738)
+INFO: Successfully imported data for POR2232722104 (SS_POR22327_1942)
+INFO: Successfully imported data for POR2235782113 (SS_POR22357_1939)
+ERROR: import for resp.id 1513 POR2205722103 failed with message "I_PTFAM_WEPLAYINGACTIVEH: 202 -- [Por favor, insira um número entre 0 e 99] 
+" and more
+INFO: Successfully imported data for POR2205732111 (SS_POR22057_799)
+INFO: Successfully imported data for POR2205731115 (SS_POR22057_3572)
+ERROR: import for resp.id 1516 POR2234971108 failed with message "I_PTFAM_PT_FATHERSINCE_2: 36 -- [Please use mm/yyyy] 
+" and more
+INFO: Successfully imported data for POR2213251115 (SS_POR22132_6260)
+ERROR: Missing ChildCode for resp.id. 1518
+ERROR: Missing ChildCode for resp.id. 1519
+INFO: Successfully imported data for POR2213602112 (SS_POR22136_1877)
+ERROR: import for resp.id 1521 POR2235101111 failed with message "I_PTFAM_PT_FATHERSINCE_2: Desde os 2 anos -- [Please use mm/yyyy] 
+" and more
+INFO: Successfully imported data for POR2234971114 (SS_POR22349_3526)
+INFO: Successfully imported data for POR2232262112 (SS_POR22322_2960)
+INFO: Successfully imported data for POR2235782104 (SS_POR22357_1945)
+INFO: Successfully imported data for POR2232662105 (SS_POR22326_9230)
+INFO: Successfully imported data for POR2232262107 (SS_POR22322_7204)
+INFO: Successfully imported data for POR2206381108 (SS_POR22063_3560)
+INFO: Successfully imported data for POR2228462108 (SS_POR22284_9658)
+INFO: Successfully imported data for POR2235101111 (SS_POR22351_4442)
+ERROR: Missing ChildCode for resp.id. 1530
+INFO: Successfully imported data for POR2231771124 (SS_POR22317_7755)
+ERROR: import for resp.id 1532 POR2231361107 failed with message "I_PTFAM_WDSPLAYINGACTIVEM: 60 -- [Por favor, insira um número entre 0 e 59]SS_POR22313_5039.SE_POR_CP.F_PTFAMILYFORM_V12.IG_PTFAM_UNGROUPED(1).I_PTFAM_WEPLAYINGACTIVEM: 480 -- [Por favor, insira um número entre 0 e 59]SS_POR22313_5039.SE_POR_CP.F_PTFAMILYFORM_V12.IG_PTFAM_UNGROUPED(1).I_PTFAM_WDREADINGM: 60 -- [Por favor, insira um número entre 0 e 59]SS_POR22313_5039.SE_POR_CP.F_PTFAMILYFORM_V12.IG_PTFAM_UNGROUPED(1).I_PTFAM_WEELECTRONICSM: 60 -- [Por favor, insira um número entre 0 e 59] 
+" and more
+INFO: Successfully imported data for POR2232341116 (SS_POR22323_4282)
+ERROR: missing OID for resp.id. 1534 : ChildCode POR2222136021
+INFO: Successfully imported data for POR2231361107 (SS_POR22313_5039)
+INFO: Successfully imported data for POR2232721105 (SS_POR22327_1117)
+INFO: Successfully imported data for POR2205731102 (SS_POR22057_4026)
+ERROR: Missing ChildCode for resp.id. 1538
+INFO: Successfully imported data for POR2213432118 (SS_POR22134_7868)
+INFO: Successfully imported data for POR2235781104 (SS_POR22357_3372)
+ERROR: Missing ChildCode for resp.id. 1541
+ERROR: Missing ChildCode for resp.id. 1542
+ERROR: Missing ChildCode for resp.id. 1543
+ERROR: Missing ChildCode for resp.id. 1544
+ERROR: Missing ChildCode for resp.id. 1545
+ERROR: Missing ChildCode for resp.id. 1546
+INFO: Successfully imported data for POR2206711116 (SS_POR22120_3209)
+INFO: Successfully imported data for POR2232261101 (SS_POR22322_907)
+INFO: Successfully imported data for POR2232261114 (SS_POR22322_4849)
+INFO: Successfully imported data for POR2228151109 (SS_POR22281_6771)
+ERROR: Missing ChildCode for resp.id. 1551
+ERROR: import for resp.id 1552 POR2235101111 failed with message "I_PTFAM_PT_FATHERSINCE_2: desde os 2 anos -- [Please use mm/yyyy] 
+" and more
+ERROR: Missing ChildCode for resp.id. 1553
+ERROR: Missing ChildCode for resp.id. 1554
+INFO: Successfully imported data for POR2209841102 (SS_POR22098_6301)
+INFO: Successfully imported data for POR2209841102 (SS_POR22098_6301)
+INFO: Successfully imported data for POR2213601117 (SS_POR22136_3927)
+INFO: Successfully imported data for POR2213601120 (SS_POR22136_1040)
+ERROR: Missing ChildCode for resp.id. 1559
+INFO: Successfully imported data for POR2235252110 (SS_POR22352_362)
+INFO: Successfully imported data for POR2213492116 (SS_POR22134_6818)
+INFO: Successfully imported data for POR2232261119 (SS_POR22322_4482)
+INFO: Successfully imported data for POR2235252111 (SS_POR22352_2710)
+INFO: Successfully imported data for POR2235782108 (SS_POR22357_6830)
+INFO: Successfully imported data for POR2213492116 (SS_POR22134_6818)
+INFO: Successfully imported data for POR2213601110 (SS_POR22136_8368)
+INFO: Successfully imported data for POR2235252111 (SS_POR22352_2710)
+INFO: Successfully imported data for POR2232261119 (SS_POR22322_4482)
+INFO: Successfully imported data for POR2232721106 (SS_POR22327_2809)
+INFO: Successfully imported data for POR2223941102 (SS_POR22239_8512)
+ERROR: import for resp.id 1571 POR2213601104 failed with message "I_PTFAM_WEPLAYINGACTIVEH: 3  -- This value is not an integer. 
+" and more
+ERROR: missing OID for resp.id. 1572 : ChildCode POR2222136011
+INFO: Successfully imported data for POR2223942119 (SS_POR22239_4062)
+INFO: Successfully imported data for POR2223942101 (SS_POR22239_9248)
+INFO: Successfully imported data for POR2223941102 (SS_POR22239_8512)
+ERROR: import for resp.id 1576 POR2231362102 failed with message "I_PTFAM_BEDTIME: 09h:30m -- [Por favor, dê um tempo como 19:00 ou 02:45]SS_POR22313_5429.SE_POR_CP.F_PTFAMILYFORM_V12.IG_PTFAM_UNGROUPED(1).I_PTFAM_WAKEUPTIME: 08h:15m -- [Por favor, dê um tempo como 07:00 ou 12:45] 
+" and more
+INFO: Successfully imported data for POR2213431108 (SS_POR22134_1195)
+ERROR: missing OID for resp.id. 1578 : ChildCode POR2202394101
+INFO: Successfully imported data for POR2235251105 (SS_POR22352_6148)
+ERROR: Missing ChildCode for resp.id. 1580
+INFO: Successfully imported data for POR2213282102 (SS_POR22132_6494)
+INFO: Successfully imported data for POR2228411121 (SS_POR22284_58)
+INFO: Successfully imported data for POR2228412104 (SS_POR22284_9221)
+INFO: Successfully imported data for POR2235252118 (SS_POR22352_2311)
+INFO: Successfully imported data for POR2228461111 (SS_POR22284_9298)
+ERROR: import for resp.id 1586 POR2228151107 failed with message "I_PTFAM_PT_MOTHERSINCE_2: desde os 3 anos. -- [Please use mm/yyyy] 
+" and more
+INFO: Successfully imported data for POR2213601105 (SS_POR22136_9378)
+INFO: Successfully imported data for POR2235782103 (SS_POR22357_1634)
+INFO: Successfully imported data for POR2235782103 (SS_POR22357_1634)
+INFO: Successfully imported data for POR2235251115 (SS_POR22352_4975)
+INFO: Successfully imported data for POR2211771104 (SS_POR22117_7763)
+INFO: Successfully imported data for POR2216781108 (SS_POR22167_5659)
+INFO: Successfully imported data for POR2228462105 (SS_POR22284_5071)
+INFO: Successfully imported data for POR2235781107 (SS_POR22357_2177)
+INFO: Successfully imported data for POR2235251115 (SS_POR22352_4975)
+INFO: Successfully imported data for POR2234641114 (SS_POR22346_2969)
+INFO: Successfully imported data for POR2228411103 (SS_POR22284_6816)
+INFO: Successfully imported data for POR2235781106 (SS_POR22357_4958)
+INFO: Successfully imported data for POR2235782111 (SS_POR22357_5825)
+INFO: Successfully imported data for POR2205731108 (SS_POR22057_5271)
+ERROR: import for resp.id 1601 POR2228411111 failed with message "I_PTFAM_PT_CHILDSINCE_2: 2anos e 3 meses  -- [Please use mm/yyyy]SS_POR22284_3564.SE_POR_CP.F_PTFAMILYFORM_V12.IG_PTFAM_UNGROUPED(1).I_PTFAM_PT_MOTHERSINCE_2: 2 anos e 3 meses  -- [Please use mm/yyyy]SS_POR22284_3564.SE_POR_CP.F_PTFAMILYFORM_V12.IG_PTFAM_UNGROUPED(1).I_PTFAM_PT_FATHERSINCE_2: 4 anos -- [Please use mm/yyyy] 
+" and more
+INFO: Successfully imported data for POR2235781105 (SS_POR22357_5920)
+INFO: Successfully imported data for POR2228412101 (SS_POR22284_1157)
+INFO: Successfully imported data for POR2228412102 (SS_POR22284_4370)
+ERROR: Missing ChildCode for resp.id. 1605
+INFO: Successfully imported data for POR2235781111 (SS_POR22357_4989)
+INFO: Successfully imported data for POR2223941109 (SS_POR22239_8027)
+INFO: Successfully imported data for POR2235252101 (SS_POR22352_7037)
+INFO: Successfully imported data for POR2223941109 (SS_POR22239_8027)
+INFO: Successfully imported data for POR2232262109 (SS_POR22322_7729)
+INFO: Successfully imported data for POR2235251108 (SS_POR22352_594)
+INFO: Successfully imported data for POR2209721109 (SS_POR22040_1097)
+INFO: Successfully imported data for POR2235252103 (SS_POR22352_6772)
+INFO: Successfully imported data for POR2235782115 (SS_POR22357_8069)
+INFO: Successfully imported data for POR2223942106 (SS_POR22239_9575)
+ERROR: Missing ChildCode for resp.id. 1616
+INFO: Successfully imported data for POR2235252119 (SS_POR22352_1233)
+INFO: Successfully imported data for POR2205732112 (SS_POR22057_5739)
+INFO: Successfully imported data for POR2223941112 (SS_POR22239_6390)
+INFO: Successfully imported data for POR2231721110 (SS_POR22317_460)
+ERROR: missing OID for resp.id. 1621 : ChildCode POR2222136011
+INFO: Successfully imported data for POR2228412102 (SS_POR22284_4370)
+INFO: Successfully imported data for POR2228412102 (SS_POR22284_4370)
+ERROR: missing OID for resp.id. 1624 : ChildCode POR2202841117
+INFO: Successfully imported data for POR2205731108 (SS_POR22057_5271)
+INFO: Successfully imported data for POR2223941101 (SS_POR22239_350)
+INFO: Successfully imported data for POR2235252102 (SS_POR22352_495)
+INFO: Successfully imported data for POR2213251110 (SS_POR22132_9999)
+ERROR: missing OID for resp.id. 1629 : ChildCode POR2205252105
+ERROR: import for resp.id 1630 POR2216781116 failed with message "I_PTFAM_PT_FATHERSINCE_2: Não vive em Portugal  -- [Please use mm/yyyy] 
+" and more
+ERROR: missing OID for resp.id. 1631 : ChildCode POR2222349711
+INFO: Successfully imported data for POR2213342120 (SS_POR22133_7188)
+INFO: Successfully imported data for POR2231722103 (SS_POR22317_1623)
+ERROR: missing OID for resp.id. 1634 : ChildCode POR2222317711
+INFO: Successfully imported data for POR2235252106 (SS_POR22352_5586)
+INFO: Successfully imported data for POR2235781115 (SS_POR22357_3550)
+INFO: Successfully imported data for POR2228411119 (SS_POR22284_8052)
+INFO: Successfully imported data for POR2213341113 (SS_POR22133_642)
+ERROR: Missing ChildCode for resp.id. 1639
+ERROR: Missing ChildCode for resp.id. 1640
+ERROR: import for resp.id 1641 POR2235782108 failed with message "I_PTFAM_PT_MOTHERSINCE_2: 12 anos -- [Please use mm/yyyy] 
+" and more
+INFO: Successfully imported data for POR2205732115 (SS_POR22057_4552)
+ERROR: import for resp.id 1643 POR2235102114 failed with message "I_PTFAM_PT_MOTHERSINCE_2: 37 -- [Please use mm/yyyy] 
+" and more
+INFO: Successfully imported data for POR2235252107 (SS_POR22352_3507)
+INFO: Successfully imported data for POR2231362103 (SS_POR22313_4680)
+ERROR: import for resp.id 1646 POR2213492117 failed with message "I_PTFAM_PT_FATHERSINCE_2: 3  -- [Please use mm/yyyy] 
+" and more
+INFO: Successfully imported data for POR2235891102 (SS_POR22358_2138)
+INFO: Successfully imported data for POR2235252102 (SS_POR22352_495)
+INFO: Successfully imported data for POR2211542109 (SS_POR22021_5133)
+INFO: Successfully imported data for POR2213492106 (SS_POR22134_8987)
+INFO: Successfully imported data for POR2231431105 (SS_POR22314_8349)
+ERROR: import for resp.id 1652 POR2235781108 failed with message "I_PTFAM_PT_MOTHERSINCE_2: 21 12 1992 -- [Please use mm/yyyy] 
+" and more
+INFO: Successfully imported data for POR2231431103 (SS_POR22314_952)
+INFO: Successfully imported data for POR2223942107 (SS_POR22239_4961)
+ERROR: missing OID for resp.id. 1655 : ChildCode POR2200572107
+INFO: Successfully imported data for POR2223941116 (SS_POR22239_6553)
+INFO: Successfully imported data for POR2231362103 (SS_POR22313_4680)
+INFO: Successfully imported data for POR2235781116 (SS_POR22357_8962)
+INFO: Successfully imported data for POR2213491110 (SS_POR22134_1673)
+ERROR: Missing ChildCode for resp.id. 1660
+INFO: Successfully imported data for POR2235102116 (SS_POR22351_445)
+INFO: Successfully imported data for POR2235782109 (SS_POR22357_7731)
+INFO: Successfully imported data for POR2235252115 (SS_POR22352_2073)
+INFO: Successfully imported data for POR2213491107 (SS_POR22134_2907)
+INFO: Successfully imported data for POR2223942104 (SS_POR22239_9298)
+ERROR: Missing ChildCode for resp.id. 1666
+ERROR: import for resp.id 1667 POR2213492115 failed with message "I_PTFAM_PT_MOTHERSINCE_2: 40 -- [Please use mm/yyyy] 
+" and more
+INFO: Successfully imported data for POR2213602112 (SS_POR22136_1877)
+INFO: Successfully imported data for POR2213491101 (SS_POR22134_842)
+INFO: Successfully imported data for POR2211541123 (SS_POR22021_2337)
+INFO: Successfully imported data for POR2223942109 (SS_POR22239_9332)
+INFO: Successfully imported data for POR2213601116 (SS_POR22136_12)
+INFO: Successfully imported data for POR2235252113 (SS_POR22352_1712)
+INFO: Successfully imported data for POR2228151103 (SS_POR22281_1709)
+INFO: Successfully imported data for POR2223941115 (SS_POR22239_6064)
+INFO: Successfully imported data for POR2206021112 (SS_POR22060_4450)
+INFO: Successfully imported data for POR2209671112 (SS_POR22096_4685)
+INFO: Successfully imported data for POR2235781118 (SS_POR22357_4388)
+INFO: Successfully imported data for POR2223941115 (SS_POR22239_6064)
+INFO: Successfully imported data for POR2235782110 (SS_POR22357_7277)
+INFO: Successfully imported data for POR2235891105 (SS_POR22358_3541)
+ERROR: import for resp.id 1682 POR2213601116 failed with message "I_PTFAM_PT_MOTHERSINCE_2: 20 -- [Please use mm/yyyy]SS_POR22136_12.SE_POR_CP.F_PTFAMILYFORM_V12.IG_PTFAM_UNGROUPED(1).I_PTFAM_PT_FATHERSINCE_2: 20 -- [Please use mm/yyyy] 
+" and more
+INFO: Successfully imported data for POR2223941104 (SS_POR22239_7095)
+INFO: Successfully imported data for POR2213342119 (SS_POR22133_7511)
+INFO: Successfully imported data for POR2231431115 (SS_POR22314_7441)
+INFO: Successfully imported data for POR2213342107 (SS_POR22133_9539)
+INFO: Successfully imported data for POR2232262115 (SS_POR22322_3112)
+INFO: Successfully imported data for POR2235252104 (SS_POR22352_4556)
+ERROR: Missing ChildCode for resp.id. 1689
+INFO: Successfully imported data for POR2211772110 (SS_POR22117_5918)
+INFO: Successfully imported data for POR2223942120 (SS_POR22239_3456)
+ERROR: missing OID for resp.id. 1692 : ChildCode POR2222136011
+INFO: Successfully imported data for POR2213281115 (SS_POR22132_1531)
+INFO: Successfully imported data for POR2213341119 (SS_POR22133_1402)
+INFO: Successfully imported data for POR2213341119 (SS_POR22133_1402)
+INFO: Successfully imported data for POR2213341119 (SS_POR22133_1402)
+INFO: Successfully imported data for POR2232262118 (SS_POR22322_9740)
+INFO: Successfully imported data for POR2231362118 (SS_POR22313_1596)
+INFO: Successfully imported data for POR2214531110 (SS_POR22145_2550)
+INFO: Successfully imported data for POR2231362112 (SS_POR22313_5743)
+INFO: Successfully imported data for POR2228411108 (SS_POR22284_9802)
+ERROR: Missing ChildCode for resp.id. 1702
+INFO: Successfully imported data for POR2235782102 (SS_POR22357_6264)
+INFO: Successfully imported data for POR2213601108 (SS_POR22136_3514)
+INFO: Successfully imported data for POR2228152120 (SS_POR22281_2287)
+INFO: Successfully imported data for POR2214531114 (SS_POR22145_2196)
+INFO: Successfully imported data for POR2234641111 (SS_POR22346_1598)
+ERROR: import for resp.id 1708 POR2235781112 failed with message "I_PTFAM_PT_CHILDSINCE_2: 05/11/2018  -- [Please use mm/yyyy] 
+" and more
+INFO: Successfully imported data for POR2205722118 (SS_POR22057_8595)
+ERROR: Missing ChildCode for resp.id. 1710
+ERROR: import for resp.id 1711 POR2213601112 failed with message "I_PTFAM_PT_FATHERSINCE_2: 8 anos -- [Please use mm/yyyy] 
+" and more
+ERROR: Incorrect ChildCode for resp.id. 1712: 22
+ERROR: Missing ChildCode for resp.id. 1713
+ERROR: Missing ChildCode for resp.id. 1714
+INFO: Successfully imported data for POR2213602114 (SS_POR22136_5049)
+ERROR: Missing ChildCode for resp.id. 1716
+INFO: Successfully imported data for POR2233221105 (SS_POR22332_8537)
+ERROR: missing OID for resp.id. 1718 : ChildCode POR2200170000
+INFO: Successfully imported data for POR2235781109 (SS_POR22357_8113)
+ERROR: import for resp.id 1720 POR2235781109 failed with message "I_PTFAM_PT_FATHERSINCE_2: 22 anos -- [Please use mm/yyyy] 
+" and more
+INFO: Successfully imported data for POR2208301105 (SS_POR22123_3244)
+INFO: Successfully imported data for POR2205731104 (SS_POR22057_6394)
+INFO: Successfully imported data for POR2211262116 (SS_POR22112_4652)
+ERROR: import for resp.id 1724 POR2235781101 failed with message "I_PTFAM_PT_MOTHERSINCE_2: 29/09/2019 -- [Please use mm/yyyy]SS_POR22357_874.SE_POR_CP.F_PTFAMILYFORM_V12.IG_PTFAM_UNGROUPED(1).I_PTFAM_PT_FATHERSINCE_2: 29/09/2019 -- [Please use mm/yyyy] 
+" and more
+INFO: Successfully imported data for POR2208301105 (SS_POR22123_3244)
+ERROR: Missing ChildCode for resp.id. 1726
+ERROR: import for resp.id 1727 POR2208301105 failed with message "I_PTFAM_BEDTIME: 21.00 -- [Por favor, dê um tempo como 19:00 ou 02:45]SS_POR22123_3244.SE_POR_CP.F_PTFAMILYFORM_V12.IG_PTFAM_UNGROUPED(1).I_PTFAM_WAKEUPTIME: 7.00 -- [Por favor, dê um tempo como 07:00 ou 12:45] 
+" and more
+ERROR: Missing ChildCode for resp.id. 1728
+INFO: Successfully imported data for POR2233221119 (SS_POR22332_8370)
+ERROR: Missing ChildCode for resp.id. 1730
+ERROR: missing OID for resp.id. 1731 : ChildCode POR2200801105
+ERROR: Missing ChildCode for resp.id. 1732
+INFO: Successfully imported data for POR2231362112 (SS_POR22313_5743)
+INFO: Successfully imported data for POR2211261114 (SS_POR22112_299)
+INFO: Successfully imported data for POR2233221119 (SS_POR22332_8370)
+INFO: Successfully imported data for POR2208302101 (SS_POR22123_481)
+INFO: Successfully imported data for POR2213492114 (SS_POR22134_7498)
+INFO: Successfully imported data for POR2233221104 (SS_POR22332_6078)
+INFO: Successfully imported data for POR2208301105 (SS_POR22123_3244)
+INFO: Successfully imported data for POR2211261109 (SS_POR22112_2833)
+INFO: Successfully imported data for POR2223941107 (SS_POR22239_5409)
+INFO: Successfully imported data for POR2232702124 (SS_POR22327_3745)
+INFO: Successfully imported data for POR2233222115 (SS_POR22332_4533)
+INFO: Successfully imported data for POR2223942121 (SS_POR22239_6087)
+INFO: Successfully imported data for POR2200811110 (SS_POR22008_2635)
+INFO: Successfully imported data for POR2200811104 (SS_POR22008_6396)
+INFO: Successfully imported data for POR2232262120 (SS_POR22322_9197)
+INFO: Successfully imported data for POR2223941107 (SS_POR22239_5409)
+INFO: Successfully imported data for POR2211261108 (SS_POR22112_7002)
+ERROR: import for resp.id 1750 POR2235012110 failed with message "I_PTFAM_PT_MOTHERSINCE_2: 7 -- [Please use mm/yyyy] 
+" and more
+INFO: Successfully imported data for POR2235782116 (SS_POR22357_8035)
+INFO: Successfully imported data for POR2211261115 (SS_POR22112_1764)
+ERROR: import for resp.id 1753 POR2208302122 failed with message "I_PTFAM_BEDTIME: 9:30 -- [Por favor, dê um tempo como 19:00 ou 02:45] 
+" and more
+INFO: Successfully imported data for POR2228411109 (SS_POR22284_4984)
+INFO: Successfully imported data for POR2233222119 (SS_POR22332_3017)
+INFO: Successfully imported data for POR2232361112 (SS_POR22323_4443)
+INFO: Successfully imported data for POR2228411108 (SS_POR22284_9802)
+INFO: Successfully imported data for POR2200811110 (SS_POR22008_2635)
+INFO: Successfully imported data for POR2211261109 (SS_POR22112_2833)
+INFO: Successfully imported data for POR2208302105 (SS_POR22123_7716)
+INFO: Successfully imported data for POR2224001104 (SS_POR22240_8512)
+INFO: Successfully imported data for POR2228151102 (SS_POR22281_2110)
+INFO: Successfully imported data for POR2228411108 (SS_POR22284_9802)
+INFO: Successfully imported data for POR2205722104 (SS_POR22057_6723)
+INFO: Successfully imported data for POR2200811101 (SS_POR22008_5407)
+INFO: Successfully imported data for POR2232262108 (SS_POR22322_3749)
+INFO: Successfully imported data for POR2200811108 (SS_POR22008_5116)
+INFO: Successfully imported data for POR2228151111 (SS_POR22281_2761)
+INFO: Successfully imported data for POR2223942118 (SS_POR22239_2435)
+INFO: Successfully imported data for POR2223941118 (SS_POR22239_5090)
+INFO: Successfully imported data for POR2233222115 (SS_POR22332_4533)
+ERROR: Missing ChildCode for resp.id. 1772
+INFO: Successfully imported data for POR2200811104 (SS_POR22008_6396)
+INFO: Successfully imported data for POR2232262113 (SS_POR22322_8189)
+INFO: Successfully imported data for POR2213492121 (SS_POR22134_6115)
+INFO: Successfully imported data for POR2228152114 (SS_POR22281_5303)
+INFO: Successfully imported data for POR2213492107 (SS_POR22134_5095)
+INFO: Successfully imported data for POR2208301104 (SS_POR22123_2284)
+INFO: Successfully imported data for POR2208302105 (SS_POR22123_7716)
+INFO: Successfully imported data for POR2233221120 (SS_POR22332_6140)
+INFO: Successfully imported data for POR2233221106 (SS_POR22332_8400)
+INFO: Successfully imported data for POR2213602102 (SS_POR22136_4954)
+ERROR: Missing ChildCode for resp.id. 1783
+INFO: Successfully imported data for POR2213492119 (SS_POR22134_8580)
+INFO: Successfully imported data for POR2233221120 (SS_POR22332_6140)
+INFO: Successfully imported data for POR2233222120 (SS_POR22332_5831)
+INFO: Successfully imported data for POR2227531102 (SS_POR22275_846)
+ERROR: import for resp.id 1788 POR2213602120 failed with message "I_PTFAM_PT_MOTHERSINCE_2: 34 -- [Please use mm/yyyy]SS_POR22136_97.SE_POR_CP.F_PTFAMILYFORM_V12.IG_PTFAM_UNGROUPED(1).I_PTFAM_PT_FATHERSINCE_2: 18 -- [Please use mm/yyyy] 
+" and more
+INFO: Successfully imported data for POR2213601104 (SS_POR22136_2182)
+ERROR: missing OID for resp.id. 1790 : ChildCode POR2202394118
+INFO: Successfully imported data for POR2200811113 (SS_POR22008_7633)
+ERROR: missing OID for resp.id. 1792 : ChildCode POR2202851106
+INFO: Successfully imported data for POR2213281117 (SS_POR22132_5359)
+ERROR: Missing ChildCode for resp.id. 1794
+INFO: Successfully imported data for POR2233221111 (SS_POR22332_4039)
+INFO: Successfully imported data for POR2233221117 (SS_POR22332_8580)
+ERROR: Missing ChildCode for resp.id. 1797
+INFO: Successfully imported data for POR2216532114 (SS_POR22165_3210)
+INFO: Successfully imported data for POR2211262107 (SS_POR22112_2062)
+INFO: Successfully imported data for POR2233221107 (SS_POR22332_601)
+INFO: Successfully imported data for POR2216532109 (SS_POR22165_9455)
+INFO: Successfully imported data for POR2233221111 (SS_POR22332_4039)
+ERROR: Missing ChildCode for resp.id. 1803
+ERROR: import for resp.id 1804 POR2235781110 failed with message "I_PTFAM_PT_FATHERSINCE_2: França  -- [Please use mm/yyyy] 
+" and more
+ERROR: Missing ChildCode for resp.id. 1805
+ERROR: Missing ChildCode for resp.id. 1806
+ERROR: import for resp.id 1807 POR2233221121 failed with message "I_PTFAM_PT_FATHERSINCE_2: 27 -- [Please use mm/yyyy] 
+" and more
+ERROR: import for resp.id 1808 POR2205722102 failed with message "I_PTFAM_PT_MOTHERSINCE_2: Desde os tres anos -- [Please use mm/yyyy] 
+" and more
+INFO: Successfully imported data for POR2231721116 (SS_POR22317_7812)
+INFO: Successfully imported data for POR2211261122 (SS_POR22112_9556)
+INFO: Successfully imported data for POR2216532116 (SS_POR22165_9337)
+INFO: Successfully imported data for POR2228152107 (SS_POR22281_3868)
+INFO: Successfully imported data for POR2216532104 (SS_POR22165_8361)
+ERROR: Missing ChildCode for resp.id. 1814
+INFO: Successfully imported data for POR2228152118 (SS_POR22281_682)
+INFO: Successfully imported data for POR2216532109 (SS_POR22165_9455)
+INFO: Successfully imported data for POR2216531115 (SS_POR22165_8451)
+INFO: Successfully imported data for POR2216531116 (SS_POR22165_942)
+ERROR: Missing ChildCode for resp.id. 1819
+INFO: Successfully imported data for POR2235252110 (SS_POR22352_362)
+INFO: Successfully imported data for POR2232261116 (SS_POR22322_8469)
+INFO: Successfully imported data for POR2216531107 (SS_POR22165_3020)
+INFO: Successfully imported data for POR2213492109 (SS_POR22134_5276)
+INFO: Successfully imported data for POR2213522112 (SS_POR22135_2370)
+INFO: Successfully imported data for POR2216531106 (SS_POR22165_7440)
+INFO: Successfully imported data for POR2216781109 (SS_POR22167_8089)
+INFO: Successfully imported data for POR2235252113 (SS_POR22352_1712)
+INFO: Successfully imported data for POR2211261111 (SS_POR22112_1885)
+INFO: Successfully imported data for POR2232262105 (SS_POR22322_4823)
+ERROR: Missing ChildCode for resp.id. 1830
+INFO: Successfully imported data for POR2235101110 (SS_POR22351_8821)
+INFO: Successfully imported data for POR2211261120 (SS_POR22112_8968)
+INFO: Successfully imported data for POR2234641116 (SS_POR22346_6653)
+ERROR: Missing ChildCode for resp.id. 1834
+INFO: Successfully imported data for POR2233222111 (SS_POR22332_9970)
+INFO: Successfully imported data for POR2213491117 (SS_POR22134_6378)
+ERROR: Incorrect ChildCode for resp.id. 1837: 773
+INFO: Successfully imported data for POR2211261119 (SS_POR22112_8904)
+INFO: Successfully imported data for POR2233221101 (SS_POR22332_5708)
+ERROR: import for resp.id 1840 POR2208302103 failed with message "I_PTFAM_PT_CHILDSINCE_2: 3 anos  -- [Please use mm/yyyy] 
+" and more
+INFO: Successfully imported data for POR2233221114 (SS_POR22332_5296)
+ERROR: Missing ChildCode for resp.id. 1842
+INFO: Successfully imported data for POR2208212105 (SS_POR22082_9306)
+ERROR: import for resp.id 1844 POR2213431117 failed with message "I_PTFAM_PT_CHILDSINCE_2: 07/06/2017 -- [Please use mm/yyyy]SS_POR22134_9586.SE_POR_CP.F_PTFAMILYFORM_V12.IG_PTFAM_UNGROUPED(1).I_PTFAM_PT_FATHERSINCE_2: 18/10/2017 -- [Please use mm/yyyy] 
+" and more
+INFO: Successfully imported data for POR2233221107 (SS_POR22332_601)
+INFO: Successfully imported data for POR2208302106 (SS_POR22123_7573)
+INFO: Successfully imported data for POR2211261110 (SS_POR22112_2867)
+ERROR: import for resp.id 1848 POR2228412118 failed with message "I_PTFAM_PT_MOTHERSINCE_2: 10 -- [Please use mm/yyyy]SS_POR22284_9053.SE_POR_CP.F_PTFAMILYFORM_V12.IG_PTFAM_UNGROUPED(1).I_PTFAM_PT_FATHERSINCE_2: 20 -- [Please use mm/yyyy] 
+" and more
+INFO: Successfully imported data for POR2208212105 (SS_POR22082_9306)
+ERROR: Missing ChildCode for resp.id. 1850
+INFO: Successfully imported data for POR2205842104 (SS_POR22058_7093)
+INFO: Successfully imported data for POR2208211101 (SS_POR22082_2335)
+INFO: Successfully imported data for POR2232262120 (SS_POR22322_9197)
+INFO: Successfully imported data for POR2213522107 (SS_POR22135_9064)
+INFO: Successfully imported data for POR2205731101 (SS_POR22057_8686)
+ERROR: missing OID for resp.id. 1856 : ChildCode POR2203226103
+INFO: Successfully imported data for POR2231722111 (SS_POR22317_9982)
+INFO: Successfully imported data for POR2233222112 (SS_POR22332_579)
+INFO: Successfully imported data for POR2200951112 (SS_POR22009_2461)
+ERROR: import for resp.id 1860 POR2211262110 failed with message "I_PTFAM_PT_FATHERSINCE_2: Desde os 3 anos -- [Please use mm/yyyy] 
+" and more
+INFO: Successfully imported data for POR2223942111 (SS_POR22239_2467)
+INFO: Successfully imported data for POR2208212101 (SS_POR22082_35)
+INFO: Successfully imported data for POR2200951107 (SS_POR22009_8989)
+INFO: Successfully imported data for POR2214741104 (SS_POR22147_3715)
+INFO: Successfully imported data for POR2223942105 (SS_POR22239_7054)
+INFO: Successfully imported data for POR2208302111 (SS_POR22123_1370)
+ERROR: import for resp.id 1867 POR2232341104 failed with message "I_PTFAM_PT_MOTHERSINCE_2: Há 33 anos -- [Please use mm/yyyy] 
+" and more
+ERROR: Missing ChildCode for resp.id. 1868
+ERROR: Missing ChildCode for resp.id. 1869
+INFO: Successfully imported data for POR2211261104 (SS_POR22112_5433)
+INFO: Successfully imported data for POR2205732105 (SS_POR22057_6163)
+INFO: Successfully imported data for POR2213942123 (SS_POR22139_8931)
+INFO: Successfully imported data for POR2231771115 (SS_POR22317_3016)
+INFO: Successfully imported data for POR2208692105 (SS_POR22128_2074)
+INFO: Successfully imported data for POR2205731101 (SS_POR22057_8686)
+INFO: Successfully imported data for POR2208692105 (SS_POR22128_2074)
+ERROR: Missing ChildCode for resp.id. 1877
+INFO: Successfully imported data for POR2205731101 (SS_POR22057_8686)
+INFO: Successfully imported data for POR2205731101 (SS_POR22057_8686)
+ERROR: Missing ChildCode for resp.id. 1880
+INFO: Successfully imported data for POR2213492111 (SS_POR22134_9068)
+INFO: Successfully imported data for POR2213492111 (SS_POR22134_9068)
+INFO: Successfully imported data for POR2213491116 (SS_POR22134_7731)
+INFO: Successfully imported data for POR2211261103 (SS_POR22112_5974)
+ERROR: Missing ChildCode for resp.id. 1885
+INFO: Successfully imported data for POR2213521107 (SS_POR22135_5239)
+INFO: Successfully imported data for POR2205731104 (SS_POR22057_6394)
+INFO: Successfully imported data for POR2213521120 (SS_POR22135_5555)
+INFO: Successfully imported data for POR2213491106 (SS_POR22134_3100)
+INFO: Successfully imported data for POR2234772101 (SS_POR22347_7165)
+INFO: Successfully imported data for POR2233221113 (SS_POR22332_8140)
+INFO: Successfully imported data for POR2234772103 (SS_POR22347_9196)
+INFO: Successfully imported data for POR2213522113 (SS_POR22135_4586)
+ERROR: Missing ChildCode for resp.id. 1894
+INFO: Successfully imported data for POR2208691122 (SS_POR22128_3133)
+INFO: Successfully imported data for POR2234771108 (SS_POR22347_7717)
+INFO: Successfully imported data for POR2213521119 (SS_POR22135_334)
+INFO: Successfully imported data for POR2232261107 (SS_POR22322_6906)
+INFO: Successfully imported data for POR2213491106 (SS_POR22134_3100)
+INFO: Successfully imported data for POR2233221110 (SS_POR22332_5501)
+INFO: Successfully imported data for POR2213491106 (SS_POR22134_3100)
+INFO: Successfully imported data for POR2234772112 (SS_POR22347_6475)
+INFO: Successfully imported data for POR2233221117 (SS_POR22332_8580)
+INFO: Successfully imported data for POR2232261107 (SS_POR22322_6906)
+INFO: Successfully imported data for POR2200951102 (SS_POR22009_6698)
+INFO: Successfully imported data for POR2233221107 (SS_POR22332_601)
+ERROR: Missing ChildCode for resp.id. 1907
+INFO: Successfully imported data for POR2228412115 (SS_POR22284_9266)
+ERROR: Missing ChildCode for resp.id. 1909
+ERROR: Missing ChildCode for resp.id. 1910
+ERROR: conversion for resp.id. 1911 POR2213942118 failed with message "CONVERSION-ERROR I_PTFAM_WEPLAYINGACTIVEH value 2 a 3 to integer"/>            <ItemData ItemOID="I_" and more
+INFO: Successfully imported data for POR2233221117 (SS_POR22332_8580)
+INFO: Successfully imported data for POR2235602110 (SS_POR22356_4693)
+INFO: Successfully imported data for POR2232662116 (SS_POR22326_4174)
+INFO: Successfully imported data for POR2200951114 (SS_POR22009_2741)
+INFO: Successfully imported data for POR2228282117 (SS_POR22282_9811)
+INFO: Successfully imported data for POR2213521101 (SS_POR22135_227)
+ERROR: Missing ChildCode for resp.id. 1918
+INFO: Successfully imported data for POR2200811102 (SS_POR22008_1003)
+INFO: Successfully imported data for POR2234772105 (SS_POR22347_8137)
+ERROR: import for resp.id 1921 POR2213521115 failed with message "I_PTFAM_PT_MOTHERSINCE_2: 5 -- [Please use mm/yyyy]SS_POR22135_4995.SE_POR_CP.F_PTFAMILYFORM_V12.IG_PTFAM_UNGROUPED(1).I_PTFAM_PT_FATHERSINCE_2: 5 -- [Please use mm/yyyy] 
+" and more
+ERROR: missing OID for resp.id. 1922 : ChildCode POR2235012210
+INFO: Successfully imported data for POR2233221112 (SS_POR22332_1451)
+INFO: Successfully imported data for POR2234771105 (SS_POR22347_2394)
+INFO: Successfully imported data for POR2232262114 (SS_POR22322_5546)
+INFO: Successfully imported data for POR2233222112 (SS_POR22332_579)
+INFO: Successfully imported data for POR2232661107 (SS_POR22326_7352)
+ERROR: Missing ChildCode for resp.id. 1928
+ERROR: import for resp.id 1929 POR2213521122 failed with message "I_PTFAM_PT_CHILDSINCE_2: 2 anos  -- [Please use mm/yyyy]SS_POR22135_1532.SE_POR_CP.F_PTFAMILYFORM_V12.IG_PTFAM_UNGROUPED(1).I_PTFAM_PT_FATHERSINCE_2: 2 anos  -- [Please use mm/yyyy] 
+" and more
+ERROR: Missing ChildCode for resp.id. 1930
+INFO: Successfully imported data for POR2211122103 (SS_POR22111_5795)
+ERROR: import for resp.id 1932 POR2200811120 failed with message "I_PTFAM_PT_CHILDSINCE_2: 27/01/2022 -- [Please use mm/yyyy]SS_POR22008_9054.SE_POR_CP.F_PTFAMILYFORM_V12.IG_PTFAM_UNGROUPED(1).I_PTFAM_PT_MOTHERSINCE_2: 27/01/2022 -- [Please use mm/yyyy]SS_POR22008_9054.SE_POR_CP.F_PTFAMILYFORM_V12.IG_PTFAM_UNGROUPED(1).I_PTFAM_PT_FATHERSINCE_2: 27/01/2022 -- [Please use mm/yyyy] 
+" and more
+INFO: Successfully imported data for POR2231362111 (SS_POR22313_8595)
+INFO: Successfully imported data for POR2211542108 (SS_POR22021_9190)
+ERROR: Missing ChildCode for resp.id. 1935
+INFO: Successfully imported data for POR2228412115 (SS_POR22284_9266)
+ERROR: missing OID for resp.id. 1937 : ChildCode POR2200013266
+INFO: Successfully imported data for POR2213602105 (SS_POR22136_1560)
+INFO: Successfully imported data for POR2235601121 (SS_POR22356_6062)
+ERROR: import for resp.id 1940 POR2234772103 failed with message "I_PTFAM_PT_MOTHERSINCE_2: 9 -- [Please use mm/yyyy] 
+" and more
+INFO: Successfully imported data for POR2235011110 (SS_POR22350_5502)
+INFO: Successfully imported data for POR2234772106 (SS_POR22347_9619)
+ERROR: Missing ChildCode for resp.id. 1943
+INFO: Successfully imported data for POR2233222110 (SS_POR22332_6870)
+INFO: Successfully imported data for POR2234771110 (SS_POR22347_4712)
+INFO: Successfully imported data for POR2211261102 (SS_POR22112_6560)
+ERROR: Missing ChildCode for resp.id. 1947
+INFO: Successfully imported data for POR2234772114 (SS_POR22347_4066)
+INFO: Successfully imported data for POR2213521118 (SS_POR22135_4373)
+ERROR: Missing ChildCode for resp.id. 1950
+INFO: Successfully imported data for POR2232262106 (SS_POR22322_8770)
+INFO: Successfully imported data for POR2233222104 (SS_POR22332_543)
+INFO: Successfully imported data for POR2213521108 (SS_POR22135_3565)
+INFO: Successfully imported data for POR2200812112 (SS_POR22008_8286)
+INFO: Successfully imported data for POR2234772106 (SS_POR22347_9619)
+INFO: Successfully imported data for POR2231771123 (SS_POR22317_4385)
+INFO: Successfully imported data for POR2235602111 (SS_POR22356_1644)
+INFO: Successfully imported data for POR2235602102 (SS_POR22356_686)
+INFO: Successfully imported data for POR2211121108 (SS_POR22111_4822)
+INFO: Successfully imported data for POR2214741108 (SS_POR22147_1206)
+INFO: Successfully imported data for POR2235601102 (SS_POR22356_1739)
+INFO: Successfully imported data for POR2231361117 (SS_POR22313_2041)
+INFO: Successfully imported data for POR2235601102 (SS_POR22356_1739)
+INFO: Successfully imported data for POR2208691103 (SS_POR22128_3567)
+INFO: Successfully imported data for POR2235012118 (SS_POR22350_917)
+INFO: Successfully imported data for POR2213521101 (SS_POR22135_227)
+ERROR: import for resp.id 1967 POR2231722108 failed with message "I_PTFAM_PT_MOTHERSINCE_2: A mãe sempre viveu no Brasil e não vive com a criança. -- [Please use mm/yyyy]SS_POR22317_4313.SE_POR_CP.F_PTFAMILYFORM_V12.IG_PTFAM_UNGROUPED(1).I_PTFAM_PT_FATHERSINCE_2: O pai vive em Portugal desde 08/2019. Anteriormente, vivia no Brasil. -- [Please use mm/yyyy] 
+" and more
+ERROR: Missing ChildCode for resp.id. 1968
+INFO: Successfully imported data for POR2235011114 (SS_POR22350_52)
+INFO: Successfully imported data for POR2233222117 (SS_POR22332_6118)
+ERROR: Missing ChildCode for resp.id. 1971
+ERROR: import for resp.id 1972 POR2234772102 failed with message "I_PTFAM_PT_MOTHERSINCE_2: Desde 1985 -- [Please use mm/yyyy]SS_POR22347_2988.SE_POR_CP.F_PTFAMILYFORM_V12.IG_PTFAM_UNGROUPED(1).I_PTFAM_PT_FATHERSINCE_2: Desde 2008 -- [Please use mm/yyyy] 
+" and more
+INFO: Successfully imported data for POR2200812107 (SS_POR22008_678)
+INFO: Successfully imported data for POR2213522117 (SS_POR22135_3716)
+INFO: Successfully imported data for POR2211261121 (SS_POR22112_9951)
+ERROR: import for resp.id 1976 POR2234771109 failed with message "I_PTFAM_PT_MOTHERSINCE_2: Desde 1985 -- [Please use mm/yyyy] 
+" and more
+INFO: Successfully imported data for POR2228412111 (SS_POR22284_2495)
+ERROR: Missing ChildCode for resp.id. 1978
+INFO: Successfully imported data for POR2233222117 (SS_POR22332_6118)
+INFO: Successfully imported data for POR2235601115 (SS_POR22356_3076)
+ERROR: Missing ChildCode for resp.id. 1981
+INFO: Successfully imported data for POR2228282117 (SS_POR22282_9811)
+INFO: Successfully imported data for POR2235011105 (SS_POR22350_5216)
+ERROR: Missing ChildCode for resp.id. 1984
+INFO: Successfully imported data for POR2200812109 (SS_POR22008_6361)
+INFO: Successfully imported data for POR2231362106 (SS_POR22313_8670)
+ERROR: Missing ChildCode for resp.id. 1987
+INFO: Successfully imported data for POR2233222105 (SS_POR22332_8666)
+INFO: Successfully imported data for POR2235012105 (SS_POR22350_2255)
+INFO: Successfully imported data for POR2200812113 (SS_POR22008_4)
+INFO: Successfully imported data for POR2233221103 (SS_POR22332_7760)
+INFO: Successfully imported data for POR2200171111 (SS_POR22001_3528)
+INFO: Successfully imported data for POR2231721104 (SS_POR22317_5167)
+INFO: Successfully imported data for POR2205731105 (SS_POR22057_8242)
+INFO: Successfully imported data for POR2234772107 (SS_POR22347_5861)
+INFO: Successfully imported data for POR2214741117 (SS_POR22147_8539)
+ERROR: import for resp.id 1997 POR2213521113 failed with message "I_PTFAM_PT_MOTHERSINCE_2: Desde ano 2004. -- [Please use mm/yyyy] 
+" and more
+ERROR: Missing ChildCode for resp.id. 1998
+INFO: Successfully imported data for POR2213522117 (SS_POR22135_3716)
+INFO: Successfully imported data for POR2213491105 (SS_POR22134_9418)
+INFO: Successfully imported data for POR2223941104 (SS_POR22239_7095)
+INFO: Successfully imported data for POR2213491105 (SS_POR22134_9418)
+INFO: Successfully imported data for POR2232702107 (SS_POR22327_8239)
+INFO: Successfully imported data for POR2213492101 (SS_POR22134_2484)
+INFO: Successfully imported data for POR2235601113 (SS_POR22356_5742)
+INFO: Successfully imported data for POR2213521102 (SS_POR22135_9863)
+INFO: Successfully imported data for POR2235601107 (SS_POR22356_2447)
+ERROR: Missing ChildCode for resp.id. 2008
+INFO: Successfully imported data for POR2235601110 (SS_POR22356_2992)
+INFO: Successfully imported data for POR2205841107 (SS_POR22058_7009)
+INFO: Successfully imported data for POR2235251110 (SS_POR22352_1038)
+INFO: Successfully imported data for POR2235602117 (SS_POR22356_7442)
+INFO: Successfully imported data for POR2213492101 (SS_POR22134_2484)
+ERROR: Missing ChildCode for resp.id. 2014
+INFO: Successfully imported data for POR2235482106 (SS_POR22354_5835)
+ERROR: Missing ChildCode for resp.id. 2016
+ERROR: import for resp.id 2017 POR2213942104 failed with message "I_PTFAM_PT_MOTHERSINCE_2: 35 -- [Please use mm/yyyy] 
+" and more
+ERROR: Missing ChildCode for resp.id. 2018
+INFO: Successfully imported data for POR2235601115 (SS_POR22356_3076)
+INFO: Successfully imported data for POR2213521121 (SS_POR22135_5350)
+INFO: Successfully imported data for POR2231362106 (SS_POR22313_8670)
+ERROR: conversion for resp.id. 2022 POR2235602120 failed with message "CONVERSION-ERROR I_PTFAM_WEPLAYINGACTIVEH value 2h to integer"/>            <ItemData ItemOID="I_PTF" and more
+INFO: Successfully imported data for POR2235251103 (SS_POR22352_6007)
+ERROR: Missing ChildCode for resp.id. 2024
+ERROR: import for resp.id 2025 POR2234772113 failed with message "I_PTFAM_WAKEUPTIME: 7::00 -- [Por favor, dê um tempo como 07:00 ou 12:45] 
+" and more
+INFO: Successfully imported data for POR2234772113 (SS_POR22347_2377)
+INFO: Successfully imported data for POR2213521116 (SS_POR22135_7340)
+INFO: Successfully imported data for POR2205732116 (SS_POR22057_7868)
+INFO: Successfully imported data for POR2200172105 (SS_POR22001_2153)
+INFO: Successfully imported data for POR2213602106 (SS_POR22136_9047)
+INFO: Successfully imported data for POR2213522114 (SS_POR22135_5569)
+INFO: Successfully imported data for POR2213522114 (SS_POR22135_5569)
+INFO: Successfully imported data for POR2233221103 (SS_POR22332_7760)
+INFO: Successfully imported data for POR2228281109 (SS_POR22282_7553)
+INFO: Successfully imported data for POR2200811114 (SS_POR22008_2077)
+INFO: Successfully imported data for POR2213602106 (SS_POR22136_9047)
+INFO: Successfully imported data for POR2235102113 (SS_POR22351_9747)
+INFO: Successfully imported data for POR2211262104 (SS_POR22112_6730)
+INFO: Successfully imported data for POR2207322120 (SS_POR22073_748)
+INFO: Successfully imported data for POR2234771102 (SS_POR22347_4893)
+INFO: Successfully imported data for POR2235601106 (SS_POR22356_161)
+INFO: Successfully imported data for POR2219002101 (SS_POR22190_1182)
+INFO: Successfully imported data for POR2200951101 (SS_POR22009_8347)
+ERROR: import for resp.id 2044 POR2234772113 failed with message "I_PTFAM_PT_MOTHERSINCE_2: 24 anos -- [Please use mm/yyyy] 
+" and more
+ERROR: missing OID for resp.id. 2045 : ChildCode POR2209951116
+ERROR: missing OID for resp.id. 2046 : ChildCode POR2208111103
+INFO: Successfully imported data for POR2200811103 (SS_POR22008_4399)
+INFO: Successfully imported data for POR2206902117 (SS_POR22127_4936)
+ERROR: Missing ChildCode for resp.id. 2049
+INFO: Successfully imported data for POR2235012118 (SS_POR22350_917)
+ERROR: Missing ChildCode for resp.id. 2051
+INFO: Successfully imported data for POR2228152121 (SS_POR22281_2718)
+INFO: Successfully imported data for POR2213491111 (SS_POR22134_2082)
+INFO: Successfully imported data for POR2213602110 (SS_POR22136_2584)
+INFO: Successfully imported data for POR2200812118 (SS_POR22008_2049)
+INFO: Successfully imported data for POR2235251111 (SS_POR22352_4374)
+INFO: Successfully imported data for POR2218212109 (SS_POR22182_9563)
+INFO: Successfully imported data for POR2208212106 (SS_POR22082_6326)
+ERROR: Missing ChildCode for resp.id. 2059
+INFO: Successfully imported data for POR2200811119 (SS_POR22008_7719)
+ERROR: Missing ChildCode for resp.id. 2061
+INFO: Successfully imported data for POR2208501122 (SS_POR22085_9410)
+INFO: Successfully imported data for POR2228281114 (SS_POR22282_7558)
+INFO: Successfully imported data for POR2234772109 (SS_POR22347_1276)
+INFO: Successfully imported data for POR2208211112 (SS_POR22082_137)
+ERROR: missing OID for resp.id. 2066 : ChildCode POR2201351115
+ERROR: import for resp.id 2067 POR2205731103 failed with message "I_PTFAM_BEDTIME: M5 21h:30m -- [Por favor, dê um tempo como 19:00 ou 02:45]SS_POR22057_773.SE_POR_CP.F_PTFAMILYFORM_V12.IG_PTFAM_UNGROUPED(1).I_PTFAM_WAKEUPTIME: M6 07h:00m -- [Por favor, dê um tempo como 07:00 ou 12:45] 
+" and more
+INFO: Successfully imported data for POR2205731102 (SS_POR22057_4026)
+INFO: Successfully imported data for POR2213491115 (SS_POR22134_3823)
+INFO: Successfully imported data for POR2205731117 (SS_POR22057_6179)
+ERROR: Missing ChildCode for resp.id. 2071
+INFO: Successfully imported data for POR2205731102 (SS_POR22057_4026)
+INFO: Successfully imported data for POR2213491114 (SS_POR22134_6744)
+INFO: Successfully imported data for POR2235011114 (SS_POR22350_52)
+INFO: Successfully imported data for POR2235011114 (SS_POR22350_52)
+ERROR: Missing ChildCode for resp.id. 2076
+INFO: Successfully imported data for POR2223942115 (SS_POR22239_9553)
+INFO: Successfully imported data for POR2205731102 (SS_POR22057_4026)
+ERROR: Missing ChildCode for resp.id. 2079
+ERROR: Missing ChildCode for resp.id. 2080
+INFO: Successfully imported data for POR2200812107 (SS_POR22008_678)
+INFO: Successfully imported data for POR2213491114 (SS_POR22134_6744)
+INFO: Successfully imported data for POR2208302115 (SS_POR22123_9103)
+ERROR: import for resp.id 2084 POR2200811117 failed with message "I_PTFAM_PT_MOTHERSINCE_2: 23 anos -- [Please use mm/yyyy] 
+" and more
+INFO: Successfully imported data for POR2235011110 (SS_POR22350_5502)
+ERROR: conversion for resp.id. 2086 POR2200811106 failed with message "CONVERSION-ERROR I_PTFAM_WEPLAYINGACTIVEH value 6h to integer"/>            <ItemData ItemOID="I_PTF" and more
+ERROR: Missing ChildCode for resp.id. 2087
+INFO: Successfully imported data for POR2235601112 (SS_POR22356_2018)
+ERROR: Incorrect ChildCode for resp.id. 2089: 20
+ERROR: Missing ChildCode for resp.id. 2090
+ERROR: import for resp.id 2091 POR2205731107 failed with message "I_PTFAM_PT_CHILDSINCE_2: 4 -- [Please use mm/yyyy] 
+" and more
+INFO: Successfully imported data for POR2211242105 (SS_POR22040_3355)
+INFO: Successfully imported data for POR2211242103 (SS_POR22040_2037)
+INFO: Successfully imported data for POR2235602105 (SS_POR22356_3752)
+INFO: Successfully imported data for POR2213601102 (SS_POR22136_4602)
+INFO: Successfully imported data for POR2235251106 (SS_POR22352_6827)
+INFO: Successfully imported data for POR2228281111 (SS_POR22282_7513)
+INFO: Successfully imported data for POR2211242114 (SS_POR22040_7738)
+INFO: Successfully imported data for POR2235601106 (SS_POR22356_161)
+INFO: Successfully imported data for POR2208692112 (SS_POR22128_4046)
+INFO: Successfully imported data for POR2235011113 (SS_POR22350_2089)
+ERROR: Missing ChildCode for resp.id. 2102
+ERROR: import for resp.id 2103 POR2211241112 failed with message "I_PTFAM_PT_MOTHERSINCE_2: 7 -- [Please use mm/yyyy]SS_POR22040_4774.SE_POR_CP.F_PTFAMILYFORM_V12.IG_PTFAM_UNGROUPED(1).I_PTFAM_PT_FATHERSINCE_2: 12 -- [Please use mm/yyyy] 
+" and more
+INFO: Successfully imported data for POR2228461102 (SS_POR22284_2157)
+INFO: Successfully imported data for POR2200812107 (SS_POR22008_678)
+INFO: Successfully imported data for POR2200811109 (SS_POR22008_2111)
+INFO: Successfully imported data for POR2213602115 (SS_POR22136_8664)
+ERROR: missing OID for resp.id. 2108 : ChildCode POR2200573112
+INFO: Successfully imported data for POR2213602115 (SS_POR22136_8664)
+INFO: Successfully imported data for POR2205722106 (SS_POR22057_8429)
+INFO: Successfully imported data for POR2235602124 (SS_POR22356_4442)
+INFO: Successfully imported data for POR2200812102 (SS_POR22008_9678)
+INFO: Successfully imported data for POR2205722105 (SS_POR22057_3225)
+INFO: Successfully imported data for POR2205731111 (SS_POR22057_1939)
+INFO: Successfully imported data for POR2205722105 (SS_POR22057_3225)
+INFO: Successfully imported data for POR2233692101 (SS_POR22336_575)
+INFO: Successfully imported data for POR2235602101 (SS_POR22356_4140)
+INFO: Successfully imported data for POR2211242111 (SS_POR22040_4515)
+INFO: Successfully imported data for POR2205731102 (SS_POR22057_4026)
+INFO: Successfully imported data for POR2211241108 (SS_POR22040_6850)
+INFO: Successfully imported data for POR2208691115 (SS_POR22128_5959)
+ERROR: Missing ChildCode for resp.id. 2122
+ERROR: import for resp.id 2123 POR2205722110 failed with message "I_PTFAM_PT_FATHERSINCE_2: desde os 16 anos -- [Please use mm/yyyy] 
+" and more
+INFO: Successfully imported data for POR2235011113 (SS_POR22350_2089)
+INFO: Successfully imported data for POR2211241107 (SS_POR22040_2759)
+INFO: Successfully imported data for POR2235011113 (SS_POR22350_2089)
+INFO: Successfully imported data for POR2235601118 (SS_POR22356_2491)
+INFO: Successfully imported data for POR2200951104 (SS_POR22009_4679)
+ERROR: missing OID for resp.id. 2129 : ChildCode POR2203136116
+INFO: Successfully imported data for POR2205731101 (SS_POR22057_8686)
+INFO: Successfully imported data for POR2205731113 (SS_POR22057_796)
+INFO: Successfully imported data for POR2231721107 (SS_POR22317_4507)
+INFO: Successfully imported data for POR2218561116 (SS_POR22185_5946)
+INFO: Successfully imported data for POR2208301111 (SS_POR22123_349)
+INFO: Successfully imported data for POR2228152117 (SS_POR22281_4330)
+INFO: Successfully imported data for POR2214162115 (SS_POR22141_3314)
+INFO: Successfully imported data for POR2214162115 (SS_POR22141_3314)
+INFO: Successfully imported data for POR2206381112 (SS_POR22063_8709)
+INFO: Successfully imported data for POR2216531117 (SS_POR22165_3504)
+INFO: Successfully imported data for POR2216531118 (SS_POR22165_5782)
+INFO: Successfully imported data for POR2200951102 (SS_POR22009_6698)
+INFO: Successfully imported data for POR2231772110 (SS_POR22317_7366)
+INFO: Successfully imported data for POR2216531108 (SS_POR22165_5520)
+INFO: Successfully imported data for POR2231361116 (SS_POR22313_2539)
+INFO: Successfully imported data for POR2234322120 (SS_POR22343_9592)
+INFO: Successfully imported data for POR2216531111 (SS_POR22165_2)
+INFO: Successfully imported data for POR2216531102 (SS_POR22165_3221)
+INFO: Successfully imported data for POR2235602106 (SS_POR22356_2415)
+INFO: Successfully imported data for POR2216531119 (SS_POR22165_3600)
+INFO: Successfully imported data for POR2231721102 (SS_POR22317_8881)
+INFO: Successfully imported data for POR2235251102 (SS_POR22352_7790)
+INFO: Successfully imported data for POR2211261123 (SS_POR22112_9469)
+ERROR: Missing ChildCode for resp.id. 2153
+ERROR: Missing ChildCode for resp.id. 2154
+INFO: Successfully imported data for POR2208212104 (SS_POR22082_7075)
+INFO: Successfully imported data for POR2208301111 (SS_POR22123_349)
+INFO: Successfully imported data for POR2205732114 (SS_POR22057_5043)
+ERROR: missing OID for resp.id. 2158 : ChildCode POR2240000000
+INFO: Successfully imported data for POR2223941110 (SS_POR22239_2990)
+INFO: Successfully imported data for POR2218952122 (SS_POR22189_8498)
+INFO: Successfully imported data for POR2235251109 (SS_POR22352_9826)
+ERROR: Missing ChildCode for resp.id. 2162
+INFO: Successfully imported data for POR2211242108 (SS_POR22040_9858)
+ERROR: import for resp.id 2164 POR2218952122 failed with message "I_PTFAM_PT_MOTHERSINCE_2: 15 -- [Please use mm/yyyy]SS_POR22189_8498.SE_POR_CP.F_PTFAMILYFORM_V12.IG_PTFAM_UNGROUPED(1).I_PTFAM_PT_FATHERSINCE_2: não sei -- [Please use mm/yyyy] 
+" and more
+INFO: Successfully imported data for POR2232661109 (SS_POR22326_4587)
+INFO: Successfully imported data for POR2211242110 (SS_POR22040_8246)
+INFO: Successfully imported data for POR2211262101 (SS_POR22112_3602)
+INFO: Successfully imported data for POR2213602116 (SS_POR22136_5417)
+INFO: Successfully imported data for POR2208301103 (SS_POR22123_8641)
+ERROR: import for resp.id 2170 POR2211441114 failed with message "I_PTFAM_PT_FATHERSINCE_2: Desde 2012 -- [Please use mm/yyyy] 
+" and more
+INFO: Successfully imported data for POR2235251112 (SS_POR22352_6880)
+INFO: Successfully imported data for POR2235602123 (SS_POR22356_5142)
+INFO: Successfully imported data for POR2208301108 (SS_POR22123_4468)
+INFO: Successfully imported data for POR2211241115 (SS_POR22040_1770)
+INFO: Successfully imported data for POR2211261118 (SS_POR22112_8777)
+INFO: Successfully imported data for POR2206381103 (SS_POR22063_4912)
+INFO: Successfully imported data for POR2208301103 (SS_POR22123_8641)
+INFO: Successfully imported data for POR2211242119 (SS_POR22040_2401)
+ERROR: Missing ChildCode for resp.id. 2179
+ERROR: import for resp.id 2180 POR2213522105 failed with message "I_PTFAM_PT_MOTHERSINCE_2: 28/01/2018 -- [Please use mm/yyyy]SS_POR22135_734.SE_POR_CP.F_PTFAMILYFORM_V12.IG_PTFAM_UNGROUPED(1).I_PTFAM_PT_FATHERSINCE_2: 28/01/2018 -- [Please use mm/yyyy] 
+" and more
+ERROR: missing OID for resp.id. 2181 : ChildCode POR2201126112
+INFO: Successfully imported data for POR2218952123 (SS_POR22189_8242)
+INFO: Successfully imported data for POR2200951108 (SS_POR22009_3518)
+INFO: Successfully imported data for POR2211241118 (SS_POR22040_7138)
+INFO: Successfully imported data for POR2211261116 (SS_POR22112_1629)
+INFO: Successfully imported data for POR2201172109 (SS_POR22070_5944)
+INFO: Successfully imported data for POR2211242119 (SS_POR22040_2401)
+INFO: Successfully imported data for POR2205732109 (SS_POR22057_9480)
+INFO: Successfully imported data for POR2223941104 (SS_POR22239_7095)
+INFO: Successfully imported data for POR2213491119 (SS_POR22134_568)
+INFO: Successfully imported data for POR2213602116 (SS_POR22136_5417)
+INFO: Successfully imported data for POR2208302123 (SS_POR22123_5986)
+ERROR: Missing ChildCode for resp.id. 2193
+INFO: Successfully imported data for POR2200952103 (SS_POR22009_2624)
+INFO: Successfully imported data for POR2211262113 (SS_POR22112_1399)
+INFO: Successfully imported data for POR2235601104 (SS_POR22356_8870)
+INFO: Successfully imported data for POR2211241113 (SS_POR22040_9975)
+INFO: Successfully imported data for POR2208301108 (SS_POR22123_4468)
+ERROR: Missing ChildCode for resp.id. 2199
+INFO: Successfully imported data for POR2235011102 (SS_POR22350_2350)
+ERROR: Missing ChildCode for resp.id. 2201
+ERROR: Missing ChildCode for resp.id. 2202
+ERROR: Missing ChildCode for resp.id. 2203
+INFO: Successfully imported data for POR2206461122 (SS_POR22055_1822)
+INFO: Successfully imported data for POR2206461114 (SS_POR22055_2204)
+INFO: Successfully imported data for POR2201172110 (SS_POR22070_5185)
+ERROR: import for resp.id 2207 POR2206461112 failed with message "I_PTFAM_BEDTIME: 21h -- [Por favor, dê um tempo como 19:00 ou 02:45]SS_POR22055_5577.SE_POR_CP.F_PTFAMILYFORM_V12.IG_PTFAM_UNGROUPED(1).I_PTFAM_WAKEUPTIME: 7h -- [Por favor, dê um tempo como 07:00 ou 12:45] 
+" and more
+INFO: Successfully imported data for POR2208301102 (SS_POR22123_1967)
+ERROR: Missing ChildCode for resp.id. 2209
+INFO: Successfully imported data for POR2211241120 (SS_POR22040_8980)
+INFO: Successfully imported data for POR2206462115 (SS_POR22055_7962)
+INFO: Successfully imported data for POR2206462114 (SS_POR22055_7512)
+INFO: Successfully imported data for POR2208301103 (SS_POR22123_8641)
+INFO: Successfully imported data for POR2232261106 (SS_POR22322_436)
+ERROR: Missing ChildCode for resp.id. 2215
+INFO: Successfully imported data for POR2235481110 (SS_POR22354_269)
+ERROR: Missing ChildCode for resp.id. 2217
+ERROR: Missing ChildCode for resp.id. 2218
+INFO: Successfully imported data for POR2206461110 (SS_POR22055_5379)
+INFO: Successfully imported data for POR2205832106 (SS_POR22019_4527)
+INFO: Successfully imported data for POR2206461105 (SS_POR22055_7594)
+INFO: Successfully imported data for POR2211541112 (SS_POR22021_5460)
+INFO: Successfully imported data for POR2206462109 (SS_POR22055_826)
+INFO: Successfully imported data for POR2206462109 (SS_POR22055_826)
+INFO: Successfully imported data for POR2205832106 (SS_POR22019_4527)
+INFO: Successfully imported data for POR2205732109 (SS_POR22057_9480)
+INFO: Successfully imported data for POR2208301102 (SS_POR22123_1967)
+INFO: Successfully imported data for POR2205832112 (SS_POR22019_9300)
+INFO: Successfully imported data for POR2206461119 (SS_POR22055_3241)
+INFO: Successfully imported data for POR2206461124 (SS_POR22055_7196)
+INFO: Successfully imported data for POR2224892108 (SS_POR22248_6494)
+INFO: Successfully imported data for POR2228281106 (SS_POR22282_4100)
+INFO: Successfully imported data for POR2211261112 (SS_POR22112_8517)
+INFO: Successfully imported data for POR2211242112 (SS_POR22040_4978)
+INFO: Successfully imported data for POR2206461121 (SS_POR22055_800)
+INFO: Successfully imported data for POR2206461116 (SS_POR22055_6905)
+INFO: Successfully imported data for POR2205832103 (SS_POR22019_5766)
+INFO: Successfully imported data for POR2206461108 (SS_POR22055_1386)
+INFO: Successfully imported data for POR2206461115 (SS_POR22055_3815)
+INFO: Successfully imported data for POR2228831104 (SS_POR22288_8044)
+INFO: Successfully imported data for POR2228831104 (SS_POR22288_8044)
+INFO: Successfully imported data for POR2208301106 (SS_POR22123_3318)
+INFO: Successfully imported data for POR2211262106 (SS_POR22112_620)
+INFO: Successfully imported data for POR2206461117 (SS_POR22055_3481)
+INFO: Successfully imported data for POR2206461106 (SS_POR22055_1489)
+INFO: Successfully imported data for POR2206462102 (SS_POR22055_2832)
+INFO: Successfully imported data for POR2206461102 (SS_POR22055_5162)
+INFO: Successfully imported data for POR2228152104 (SS_POR22281_9625)
+INFO: Successfully imported data for POR2235011106 (SS_POR22350_7050)
+INFO: Successfully imported data for POR2211241104 (SS_POR22040_8993)
+INFO: Successfully imported data for POR2200952101 (SS_POR22009_3306)
+INFO: Successfully imported data for POR2232661114 (SS_POR22326_2531)
+INFO: Successfully imported data for POR2211242117 (SS_POR22040_8698)
+INFO: Successfully imported data for POR2206461112 (SS_POR22055_5577)
+ERROR: Missing ChildCode for resp.id. 2255
+ERROR: Missing ChildCode for resp.id. 2256
+INFO: Successfully imported data for POR2200812106 (SS_POR22008_2087)
+INFO: Successfully imported data for POR2211242118 (SS_POR22040_6400)
+INFO: Successfully imported data for POR2205722107 (SS_POR22057_4361)
+INFO: Successfully imported data for POR2206461122 (SS_POR22055_1822)
+INFO: Successfully imported data for POR2205722107 (SS_POR22057_4361)
+INFO: Successfully imported data for POR2231721111 (SS_POR22317_6444)
+INFO: Successfully imported data for POR2218211120 (SS_POR22182_5545)
+INFO: Successfully imported data for POR2206461103 (SS_POR22055_3732)
+INFO: Successfully imported data for POR2231721111 (SS_POR22317_6444)
+INFO: Successfully imported data for POR2211241117 (SS_POR22040_6939)
+ERROR: import for resp.id 2267 POR2200812104 failed with message "I_PTFAM_WEPLAYINGACTIVEH: 5960 -- [Por favor, insira um número entre 0 e 99] 
+" and more
+INFO: Successfully imported data for POR2213522110 (SS_POR22135_1878)
+ERROR: Incorrect ChildCode for resp.id. 2269: 22
+INFO: Successfully imported data for POR2200812115 (SS_POR22008_571)
+INFO: Successfully imported data for POR2200811104 (SS_POR22008_6396)
+INFO: Successfully imported data for POR2211122109 (SS_POR22111_4306)
+INFO: Successfully imported data for POR2200812108 (SS_POR22008_3633)
+INFO: Successfully imported data for POR2200812110 (SS_POR22008_1077)
+INFO: Successfully imported data for POR2231721118 (SS_POR22317_7405)
+INFO: Successfully imported data for POR2200812105 (SS_POR22008_976)
+INFO: Successfully imported data for POR2235101106 (SS_POR22351_2705)
+INFO: Successfully imported data for POR2200812108 (SS_POR22008_3633)
+INFO: Successfully imported data for POR2201172116 (SS_POR22070_8658)
+INFO: Successfully imported data for POR2211122112 (SS_POR22111_6744)
+INFO: Successfully imported data for POR2213522110 (SS_POR22135_1878)
+INFO: Successfully imported data for POR2200812103 (SS_POR22008_2298)
+INFO: Successfully imported data for POR2205831112 (SS_POR22019_5011)
+INFO: Successfully imported data for POR2205831117 (SS_POR22019_6098)
+INFO: Successfully imported data for POR2200951114 (SS_POR22009_2741)
+INFO: Successfully imported data for POR2205831111 (SS_POR22019_3563)
+INFO: Successfully imported data for POR2205831116 (SS_POR22019_8422)
+INFO: Successfully imported data for POR2205831114 (SS_POR22019_118)
+INFO: Successfully imported data for POR2205831107 (SS_POR22019_6541)
+INFO: Successfully imported data for POR2205831105 (SS_POR22019_4841)
+INFO: Successfully imported data for POR2235602122 (SS_POR22356_7373)
+INFO: Successfully imported data for POR2200812114 (SS_POR22008_6586)
+INFO: Successfully imported data for POR2205831101 (SS_POR22019_6487)
+INFO: Successfully imported data for POR2205831102 (SS_POR22019_6209)
+ERROR: import for resp.id 2295 POR2200812111 failed with message "I_PTFAM_PT_MOTHERSINCE_2: 2 -- [Please use mm/yyyy] 
+" and more
+ERROR: missing OID for resp.id. 2296 : ChildCode POR2222136011
+INFO: Successfully imported data for POR2206461122 (SS_POR22055_1822)
+INFO: Successfully imported data for POR2200812117 (SS_POR22008_6982)
+INFO: Successfully imported data for POR2205831103 (SS_POR22019_5005)
+INFO: Successfully imported data for POR2231721111 (SS_POR22317_6444)
+ERROR: missing OID for resp.id. 2301 : ChildCode POR2231613662
+INFO: Successfully imported data for POR2205831116 (SS_POR22019_8422)
+ERROR: Missing ChildCode for resp.id. 2303
+INFO: Successfully imported data for POR2205831118 (SS_POR22019_1660)
+INFO: Successfully imported data for POR2211261103 (SS_POR22112_5974)
+ERROR: import for resp.id 2306 POR2205832104 failed with message "I_PTFAM_PT_MOTHERSINCE_2: 25 -- [Please use mm/yyyy] 
+" and more
+ERROR: missing OID for resp.id. 2307 : ChildCode POR2200241102
+INFO: Successfully imported data for POR2211122115 (SS_POR22111_435)
+INFO: Successfully imported data for POR2211122104 (SS_POR22111_9521)
+INFO: Successfully imported data for POR2206381120 (SS_POR22063_7002)
+INFO: Successfully imported data for POR2200811105 (SS_POR22008_3383)
+INFO: Successfully imported data for POR2206382119 (SS_POR22063_2093)
+INFO: Successfully imported data for POR2205831113 (SS_POR22019_2285)
+INFO: Successfully imported data for POR2201171104 (SS_POR22070_9440)
+ERROR: Missing ChildCode for resp.id. 2315
+INFO: Successfully imported data for POR2205831108 (SS_POR22019_7298)
+INFO: Successfully imported data for POR2208502119 (SS_POR22085_3257)
+INFO: Successfully imported data for POR2211261113 (SS_POR22112_2571)
+INFO: Successfully imported data for POR2205831109 (SS_POR22019_1979)
+INFO: Successfully imported data for POR2211242113 (SS_POR22040_2002)
+INFO: Successfully imported data for POR2207342121 (SS_POR22073_247)
+INFO: Successfully imported data for POR2228832102 (SS_POR22288_4812)
+INFO: Successfully imported data for POR2200812116 (SS_POR22008_7918)
+INFO: Successfully imported data for POR2218952119 (SS_POR22189_4274)
+ERROR: import for resp.id 2325 POR2200952104 failed with message "I_PTFAM_WAKEUPTIME: 6:50 -- [Por favor, dê um tempo como 07:00 ou 12:45] 
+" and more
+INFO: Successfully imported data for POR2200502114 (SS_POR22005_2559)
+INFO: Successfully imported data for POR2205831115 (SS_POR22019_1324)
+INFO: Successfully imported data for POR2200502111 (SS_POR22005_3219)
+ERROR: import for resp.id 2329 POR2225051101 failed with message "I_PTFAM_WAKEUPTIME: 07h30 -- [Por favor, dê um tempo como 07:00 ou 12:45] 
+" and more
+INFO: Successfully imported data for POR2200502112 (SS_POR22005_1414)
+INFO: Successfully imported data for POR2235602119 (SS_POR22356_8512)
+INFO: Successfully imported data for POR2207341101 (SS_POR22073_45)
+ERROR: Missing ChildCode for resp.id. 2333
+INFO: Successfully imported data for POR2211242107 (SS_POR22040_2181)
+ERROR: missing OID for resp.id. 2335 : ChildCode POR2222005011
+INFO: Successfully imported data for POR2207341107 (SS_POR22073_5007)
+ERROR: Missing ChildCode for resp.id. 2337
+INFO: Successfully imported data for POR2200501110 (SS_POR22005_4517)
+INFO: Successfully imported data for POR2200501122 (SS_POR22005_7388)
+INFO: Successfully imported data for POR2231721117 (SS_POR22317_9425)
+INFO: Successfully imported data for POR2235011101 (SS_POR22350_6960)
+INFO: Successfully imported data for POR2213431108 (SS_POR22134_1195)
+ERROR: missing OID for resp.id. 2343 : ChildCode POR2203562120
+INFO: Successfully imported data for POR2200501120 (SS_POR22005_1861)
+INFO: Successfully imported data for POR2205842110 (SS_POR22058_7231)
+INFO: Successfully imported data for POR2235602119 (SS_POR22356_8512)
+INFO: Successfully imported data for POR2211242116 (SS_POR22040_8424)
+INFO: Successfully imported data for POR2235602103 (SS_POR22356_9825)
+INFO: Successfully imported data for POR2205832118 (SS_POR22019_2857)
+INFO: Successfully imported data for POR2200502123 (SS_POR22005_5387)
+INFO: Successfully imported data for POR2206381106 (SS_POR22063_8403)
+INFO: Successfully imported data for POR2235102110 (SS_POR22351_722)
+INFO: Successfully imported data for POR2206461104 (SS_POR22055_6844)
+INFO: Successfully imported data for POR2219592101 (SS_POR22195_6677)
+INFO: Successfully imported data for POR2228832103 (SS_POR22288_5057)
+INFO: Successfully imported data for POR2207342102 (SS_POR22073_6160)
+INFO: Successfully imported data for POR2225051103 (SS_POR22250_9567)
+INFO: Successfully imported data for POR2235251112 (SS_POR22352_6880)
+INFO: Successfully imported data for POR2200502115 (SS_POR22005_574)
+INFO: Successfully imported data for POR2200501106 (SS_POR22005_4203)
+INFO: Successfully imported data for POR2205832119 (SS_POR22019_3959)
+INFO: Successfully imported data for POR2200501112 (SS_POR22005_4873)
+INFO: Successfully imported data for POR2205832116 (SS_POR22019_938)
+INFO: Successfully imported data for POR2205832109 (SS_POR22019_3571)
+INFO: Successfully imported data for POR2200501118 (SS_POR22005_5436)
+ERROR: import for resp.id 2366 POR2205832115 failed with message "I_PTFAM_BEDTIME: M9h30m -- [Por favor, dê um tempo como 19:00 ou 02:45]SS_POR22019_3634.SE_POR_CP.F_PTFAMILYFORM_V12.IG_PTFAM_UNGROUPED(1).I_PTFAM_WAKEUPTIME: M7h00m -- [Por favor, dê um tempo como 07:00 ou 12:45] 
+" and more
+INFO: Successfully imported data for POR2200502117 (SS_POR22005_8200)
+INFO: Successfully imported data for POR2200501115 (SS_POR22005_1954)
+ERROR: Missing ChildCode for resp.id. 2369
+INFO: Successfully imported data for POR2200502122 (SS_POR22005_1761)
+INFO: Successfully imported data for POR2205832120 (SS_POR22019_8038)
+INFO: Successfully imported data for POR2207932104 (SS_POR22079_3216)
+INFO: Successfully imported data for POR2205832107 (SS_POR22019_1315)
+INFO: Successfully imported data for POR2200502110 (SS_POR22005_7295)
+INFO: Successfully imported data for POR2200501116 (SS_POR22005_4831)
+ERROR: missing OID for resp.id. 2376 : ChildCode POR2231618513
+ERROR: import for resp.id 2377 POR2200502114 failed with message "I_PTFAM_PT_MOTHERSINCE_2: 11 -- [Please use mm/yyyy] 
+" and more
+ERROR: Missing ChildCode for resp.id. 2378
+INFO: Successfully imported data for POR2207342108 (SS_POR22073_4699)
+INFO: Successfully imported data for POR2214531110 (SS_POR22145_2550)
+INFO: Successfully imported data for POR2205832101 (SS_POR22019_8416)
+INFO: finished looping from 2022-05-09 09:49:44.845368 till 2022-05-09 11:20:56.942153.

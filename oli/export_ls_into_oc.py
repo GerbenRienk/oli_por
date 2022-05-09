@@ -38,61 +38,70 @@ def cycle_through_syncs():
         responses_list = read_ls_responses(config)
         # process the responses one by one
         for one_response in responses_list:
-            for response_data in one_response:
-                # make a dict of one response
-                one_response_data = one_response[response_data]
-                #print(one_response_data)
-                # get the response_id, for administrative purposes
-                response_id = one_response_data['id']
-                # check if this combination sid-response-id already exists and if not, add it
-                conn.TryToAddSubjectToDB(sid, response_id)
-                # now see if we can do something with the data: start with the child code
-                # reset study_subject_id and study_subject_oid
-                study_subject_id = None 
-                study_subject_oid = None
-                if (one_response_data['ChildCode'] is None):
-                    # write this to error report
-                    my_report.append_to_report('ERROR: Missing ChildCode for response id %i' % response_id )
+            #print(one_response)           
+            # get the response_id, for administrative purposes
+            response_id = one_response['id']
+            # check if this combination sid-response-id already exists and if not, add it
+            conn.TryToAddSubjectToDB(sid, response_id)
+            # now see if we can do something with the data: start with the child code
+            # reset study_subject_id and study_subject_oid
+            study_subject_id = None 
+            study_subject_oid = None
+            if (one_response['ChildCode'] is None):
+                # write this to error report
+                my_report.append_to_report('ERROR: Missing ChildCode for resp.id. %i' % response_id )
+            else:
+                # add leading zero's and the study prefix
+                study_subject_id = config['childcode_prefix'] + ('0000' + str(int(float(one_response['ChildCode']))))[-8:]
+                if (len(study_subject_id) != 13):
+                    # write this to error report 
+                    my_report.append_to_report('ERROR: Incorrect ChildCode for resp.id. %i: %i' % (response_id, int(float(one_response['ChildCode']))))
                 else:
-                    # add leading zero's and the study prefix
-                    study_subject_id = config['childcode_prefix'] + ('0000' + str(int(float(one_response_data['ChildCode']))))[-8:]
-                    if (len(study_subject_id) != 13):
-                        # write this to error report 
-                        my_report.append_to_report('ERROR: Incorrect ChildCode for response id %i: %i' % (response_id, int(float(one_response_data['ChildCode']))))
+                    # write the child-code / study subject id to the database
+                    if (conn.DLookup('study_subject_id', 'ls_responses', 'sid=%i and response_id=%i' % (sid, response_id)) is None):
+                        conn.WriteStudySubjectID(sid, response_id, study_subject_id)
+                        
+                    # check if we already have a valid study subject oid
+                    study_subject_oid = conn.DLookup('study_subject_oid', 'ls_responses', 'sid=%i and response_id=%i' % (sid, response_id))
+                    if (study_subject_oid is None or study_subject_oid =='None'):
+                        # try to get a valid study subject oid
+                        study_subject_oid = PGSubject(study_subject_id).GetSSOID()
+                        # we don't know if we now have study_subject_oid,
+                        # but the procedure only writes the study subject oid to the database for later use
+                        # if it is not null
+                        conn.WriteStudySubjectOID(sid, response_id, study_subject_oid)
+                    
+                    
+                    # only continue if we have both study subject id and study subject oid
+                    if (study_subject_oid is None):
+                        # write this to error report
+                        my_report.append_to_report('ERROR: missing OID for resp.id. %i : ChildCode %s' % (response_id, study_subject_id))
                     else:
-                        # write the child-code / study subject id to the database
-                        if (conn.DLookup('study_subject_id', 'ls_responses', 'sid=%i and response_id=%i' % (sid, response_id)) is None):
-                            conn.WriteStudySubjectID(sid, response_id, study_subject_id)
-                            
-                        # check if we already have a valid study subject oid
-                        study_subject_oid = conn.DLookup('study_subject_oid', 'ls_responses', 'sid=%i and response_id=%i' % (sid, response_id))
-                        if (study_subject_oid is None or study_subject_oid =='None'):
-                            # try to get a valid study subject oid
-                            study_subject_oid = PGSubject(study_subject_id).GetSSOID()
-                            # we don't know if we now have study_subject_oid,
-                            # but the procedure only writes the study subject oid to the database for later use
-                            # if it is not null
-                            conn.WriteStudySubjectOID(sid, response_id, study_subject_oid)
-                        
-                        
-                        # only continue if we have both study subject id and study subject oid
-                        if (study_subject_oid is None):
-                            # write this to error report
-                            my_report.append_to_report('ERROR: Missing OID for ChildCode %s' % study_subject_id)
-                        else:
-                            # only compose the odm and try to import the result
-                            # if this wasn't done before, so look at date_completed
-                            if(conn.DLookup('date_completed', 'ls_responses', 'sid=%i and response_id=%i' % (sid, response_id)) is None):
-                                ws_request = compose_odm(study_subject_oid, one_response_data)
+                        # only compose the odm and try to import the result
+                        # if this wasn't done before, so look at date_completed
+                        if(conn.DLookup('date_completed', 'ls_responses', 'sid=%i and response_id=%i' % (sid, response_id)) is None):
+                            #print(one_response)
+                            print('resp.id. %i' % response_id)
+                            # we try to compose the request, but if we can't convert an item to the correct data type
+                            # then we put that in the report
+                            ws_request = compose_odm(study_subject_oid, one_response)
+                            if (ws_request.find('CONVERSION-ERROR') != -1):
+                                #print(ws_request)
+                                item_starts_at = ws_request.find('CONVERSION-ERROR')
+                                my_report.append_to_report('ERROR: conversion for resp.id. %i %s failed with message "%s" and more' % (response_id, study_subject_id, ws_request[item_starts_at:item_starts_at + 100]))
+                            else:
+                                #print(ws_request)
                                 conn.WriteDataWSRequest(sid, response_id, ws_request)
                                 import_result = myDataWS.importData(ws_request)
+                                #print(import_result)
+                                import_result = import_result.replace("'", "")
                                 conn.WriteDataWSResponse(sid, response_id, import_result)
                                 if (import_result.find('Success') == 0):
                                     my_report.append_to_report('INFO: Successfully imported data for %s (%s)' % (study_subject_id, study_subject_oid))
                                     conn.SetResponseComplete(sid, response_id)
                                 else:
                                     item_starts_at = import_result.find('I_')
-                                    my_report.append_to_report('ERROR: import for %s failed with message "%s" and more' % (study_subject_id, import_result[item_starts_at:]))
+                                    my_report.append_to_report('ERROR: import for resp.id %i %s failed with message "%s" and more' % (response_id, study_subject_id, import_result[item_starts_at:]))
                                     
             # move on with the next response 
                                 

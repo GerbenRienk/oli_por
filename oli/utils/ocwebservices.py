@@ -102,6 +102,7 @@ class dataWS(object):
         
         xml_as_string = requests.post(_dataWsUrl,data=body,headers=headers).content.decode('utf-8')
         #print('what we got from the web service')
+        #print(odm_data)
         #print(xml_as_string)
         tree = etree.fromstring(xml_as_string)
         results = ''

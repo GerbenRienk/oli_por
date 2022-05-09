@@ -1,12 +1,9 @@
-- created empty repository on github with only readme.md
 - in eclipse: file - import - Project from Git (with smart import) - clone URI
-- mind that the correct folder is selected: C:\Users\Gerben Rienk\Documents\GitHub
-- right click on project, select PyDev - Set as PyDev Project
-- create source-folder oli
-- copy package config from oli3.1
-- put oli.config in .gitignore by right-clicking on it and choosing Team - Ignore; commit and push and it works (!)
-- put an example oli_example.config next to it, so others understand how it works
 
+- to install packages zeep and lxml:  go to Window -> Preferences and in the pop-up window, navigate to PyDev -> Interpreters -> Python Interpreter
+- click Manage with pip
+- enter install zeep
+- lxml is installed as part of zeep
 - create a db-user for administrative purposes:
 CREATE USER oli WITH LOGIN UNENCRYPTED PASSWORD 'xxx'
   NOSUPERUSER INHERIT NOCREATEDB NOCREATEROLE NOREPLICATION;
@@ -30,3 +27,9 @@ WITH (
 ALTER TABLE ls_responses
   OWNER TO oli;
 COMMENT ON COLUMN ls_responses.sid IS 'survey id, as is used in LimeSurvey';
+
+We should do something with 
+select study_subject_id, count(*) from ls_responses
+group by study_subject_id
+having count(*) > 1
+order by study_subject_id;

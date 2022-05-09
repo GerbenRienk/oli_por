@@ -169,12 +169,12 @@ class ConnToOliDB(object):
         """
         cursor = self._conn.cursor()  
         #print("in WriteDataWSResponse: ", str(sid), str(response_id), data_ws_response)
-        sql_statement = """Update ls_responses set data_ws_response='%s' where sid=%i and response_id=%i""" % (data_ws_response, sid, response_id)
+        sql_statement = "Update ls_responses set data_ws_response='%s' where sid=%i and response_id=%i" % (data_ws_response, sid, response_id)
         try:
             cursor.execute(sql_statement)
         except:
             print ("WriteDataWSResponse: not able to execute: ", sql_statement)
-        
+            print("for %i-%i" % (sid, response_id))
         self._conn.commit()
         return None
 
@@ -194,7 +194,7 @@ class PGSubject(object):
         import xml.etree.ElementTree as ET
         config=readDictFile('oli.config')
         
-        login_url = config['baseUrlRest'] + '/j_spring_security_check'
+        login_url = config['baseUrlRest'] + 'j_spring_security_check'
         login_action = {'action':'submit'}
         login_payload = {
             'j_username': config['userName'],
@@ -203,8 +203,9 @@ class PGSubject(object):
                         }
         mySession = requests.Session()
         mySession.post(login_url,params=login_action,data=login_payload)
-        cd_url = config['baseUrlRest'] + '/rest/clinicaldata/xml/view/' + config['studyOid'] + '/'
+        cd_url = config['baseUrlRest'] + 'rest/clinicaldata/xml/view/' + config['studyOid'] + '/'
         cd_url = cd_url + self._studysubjectid + '/*/*'
+        #print(cd_url)
         rest_response = mySession.get(cd_url)
         # only analyze the response, if the status code was 200 
         if(rest_response.status_code == 200):
@@ -215,7 +216,8 @@ class PGSubject(object):
                 subject_info = clinical_data.attrib
                 if subject_info['{http://www.openclinica.org/ns/odm_ext_v130/v3.1}StudySubjectID'] == self._studysubjectid:
                     return subject_info['SubjectKey']
-
+        else:
+            print('unexpected status %i when submitting %s' % (rest_response.status_code, cd_url))
 
 
 if __name__ == "__main__":
